@@ -1,0 +1,144 @@
+g	ide.vim	/^imap <buffer> <silent> g <Plug>delimitMateJumpMany$/;"	m
+	ide.vim	/^imap <buffer>  <Plug>delimitMateBS$/;"	m
+	ide.vim	/^nnoremap <silent>  :TmuxNavigateLeft$/;"	m
+	ide.vim	/^nnoremap <silent>  :TmuxNavigateUp$/;"	m
+	ide.vim	/^nnoremap <silent>  :TmuxNavigateRight$/;"	m
+	ide.vim	/^nnoremap  :NERDTreeToggle$/;"	m
+	ide.vim	/^nnoremap  :noh$/;"	m
+	ide.vim	/^nnoremap <silent>  :TmuxNavigatePrevious$/;"	m
+	ide.vim	/^map  a$/;"	m
+</	ide.vim	/^inoremap <\/ =GetCloseTag()$/;"	m
+<C+/>	ide.vim	/^inoremap <C+\/> =EasyCloseTag()$/;"	m
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+"	ide.vim	/^imap <buffer> " <Plug>delimitMate"$/;"	m
+'	ide.vim	/^imap <buffer> ' <Plug>delimitMate'$/;"	m
+(	ide.vim	/^imap <buffer> ( <Plug>delimitMate($/;"	m
+)	ide.vim	/^imap <buffer> ) <Plug>delimitMate)$/;"	m
+0	ide.vim	/^normal! 0$/;"	m
+011|	ide.vim	/^normal! 011|$/;"	m
+012|	ide.vim	/^normal! 012|$/;"	m
+018|	ide.vim	/^normal! 018|$/;"	m
+024|	ide.vim	/^normal! 024|$/;"	m
+025|	ide.vim	/^normal! 025|$/;"	m
+028|	ide.vim	/^normal! 028|$/;"	m
+033|	ide.vim	/^normal! 033|$/;"	m
+058|	ide.vim	/^normal! 058|$/;"	m
+05|	ide.vim	/^normal! 05|$/;"	m
+063|	ide.vim	/^normal! 063|$/;"	m
+<BS>	ide.vim	/^imap <buffer> <BS> <Plug>delimitMateBS$/;"	m
+<C-CR>	ide.vim	/^map <C-CR> :call Synctex()$/;"	m
+<NL>	ide.vim	/^nnoremap <silent> <NL> :TmuxNavigateDown$/;"	m
+<Plug>NetrwBrowseX	ide.vim	/^nnoremap <silent> <Plug>NetrwBrowseX :call netrw#BrowseX(expand((exists("g:netrw_gx")? g:netrw_gx : '<cfile>')),netrw#CheckIfRemote())$/;"	m
+<Plug>NetrwBrowseXVis	ide.vim	/^vnoremap <silent> <Plug>NetrwBrowseXVis :call netrw#BrowseXVis()$/;"	m
+<Plug>delimitMateBS	ide.vim	/^inoremap <silent> <Plug>delimitMateBS =delimitMate#BS()$/;"	m
+<Plug>delimitMateS-BS	ide.vim	/^inoremap <silent> <expr> <Plug>delimitMateS-BS delimitMate#WithinEmptyPair() ? "\\<Del>" : "\\<S-BS>"$/;"	m
+<S-BS>	ide.vim	/^imap <buffer> <S-BS> <Plug>delimitMateS-BS$/;"	m
+<S-Tab>	ide.vim	/^imap <buffer> <S-Tab> <Plug>delimitMateS-Tab$/;"	m
+<SNR>38_:	ide.vim	/^nnoremap <SNR>38_: :=v:count ? v:count : ''$/;"	m
+Attach	attach/attach.cpp	/^Attach::Attach(double _mass,$/;"	f	class:Attach
+Attach	attach/attach.h	/^class Attach$/;"	c
+Drone	drone.cpp	/^Drone::Drone(double _mass,$/;"	f	class:Drone
+Drone	drone.h	/^class Drone : public Entity$/;"	c
+Entity	world/entity.h	/^class Entity$/;"	c
+Rudder	attach/rudder.cpp	/^Rudder::Rudder(double min_pos, double max_pos)$/;"	f	class:Rudder
+Rudder	attach/rudder.h	/^class Rudder : public Attach$/;"	c
+Sensor	sensors/sensor.cpp	/^Sensor<T>::Sensor(double mass)$/;"	f	class:Sensor
+Sensor	sensors/sensor.h	/^class Sensor : public Attach$/;"	c
+SessionLoad	ide.vim	/^let SessionLoad = 1$/;"	v
+Thrust	attach/thrust.cpp	/^Thrust::Thrust(double min, double max)$/;"	f	class:Thrust
+Thrust	attach/thrust.h	/^class Thrust : public Attach$/;"	c
+World	world.cpp	/^World::World(int size_x,$/;"	f	class:World
+World	world.h	/^class World$/;"	c
+[	ide.vim	/^imap <buffer> [ <Plug>delimitMate[$/;"	m
+]	ide.vim	/^imap <buffer> ] <Plug>delimitMate]$/;"	m
+_gravity	world.h	/^		vect3d* _gravity;$/;"	m	class:World
+_size_x	world.h	/^		const int _size_x;$/;"	m	class:World
+_size_y	world.h	/^		const int _size_y;$/;"	m	class:World
+_size_z	world.h	/^		const int _size_z;$/;"	m	class:World
+_world	sensors/sensor.h	/^		World* _world;$/;"	m	class:Sensor
+`	ide.vim	/^imap <buffer> ` <Plug>delimitMate`$/;"	m
+altitude	drone.h	/^		Sensor<double>* const altitude;$/;"	m	class:Drone
+attach_h	attach/attach.h	2;"	d
+current	attach/attach.h	/^		double current;$/;"	m	class:Attach
+drone_h	drone.h	2;"	d
+entity	world.h	/^		Entity* entity; \/\/ TODO: vector$/;"	m	class:World
+entity_h	world/entity.h	2;"	d
+get_current	attach/attach.cpp	/^double Attach::get_current()$/;"	f	class:Attach
+get_direction	drone.cpp	/^vect3d* Drone::get_direction()$/;"	f	class:Drone
+get_mass	attach/attach.cpp	/^const double Attach::get_mass()$/;"	f	class:Attach
+get_mass	drone.cpp	/^const double Drone::get_mass()$/;"	f	class:Drone
+get_max	attach/attach.cpp	/^const double Attach::get_max()$/;"	f	class:Attach
+get_min	attach/attach.cpp	/^const double Attach::get_min()$/;"	f	class:Attach
+get_pitch	drone.cpp	/^double Drone::get_pitch()$/;"	f	class:Drone
+get_roll	drone.cpp	/^double Drone::get_roll()$/;"	f	class:Drone
+get_rudder_pitch	drone.cpp	/^Attach* const Drone::get_rudder_pitch()$/;"	f	class:Drone
+get_s_altitude	drone.cpp	/^Sensor<double>* const Drone::get_s_altitude()$/;"	f	class:Drone
+get_thrust_f	drone.cpp	/^Attach* const Drone::get_thrust_f()$/;"	f	class:Drone
+get_thrust_l	drone.cpp	/^Attach* const Drone::get_thrust_l()$/;"	f	class:Drone
+get_thrust_r	drone.cpp	/^Attach* const Drone::get_thrust_r()$/;"	f	class:Drone
+get_value	sensors/sensor.cpp	/^T Sensor<T>::get_value()$/;"	f	class:Sensor
+get_vect	world/entity.h	/^		const vect3d* get_vect() { return vect; };$/;"	f	class:Entity
+get_yaw	drone.cpp	/^double Drone::get_yaw()$/;"	f	class:Drone
+gx	ide.vim	/^nmap gx <Plug>NetrwBrowseX$/;"	m
+gx	ide.vim	/^vmap gx <Plug>NetrwBrowseXVis$/;"	m
+il	ide.vim	/^vnoremap il :call CommentOut(input("Insert Leading Symbol: "))$/;"	m
+is_static	world/entity.h	/^		bool is_static;$/;"	m	class:Entity
+main	test.cpp	/^int main()$/;"	f
+mass	attach/attach.h	/^		const double mass;$/;"	m	class:Attach
+mass	drone.h	/^		const double mass;$/;"	m	class:Drone
+max	attach/attach.h	/^		const double max;$/;"	m	class:Attach
+min	attach/attach.h	/^		const double min;$/;"	m	class:Attach
+move	world/entity.h	/^		void move(const vect3d a, double time) \/\/ physical movement$/;"	f	class:Entity
+normalize	misc/vect3d.h	/^	vect3d normalize()$/;"	f	struct:vect3d
+operator *	misc/vect3d.h	/^	vect3d operator*(const double &a)$/;"	f	struct:vect3d
+operator +=	misc/vect3d.h	/^	vect3d operator+=(const vect3d &a)$/;"	f	struct:vect3d
+pitch	drone.h	/^		double pitch;$/;"	m	class:Drone
+r_pitch	drone.h	/^		Attach* const r_pitch;$/;"	m	class:Drone
+rl	ide.vim	/^vnoremap rl :call CommentOut(input("Remove Leading Symbol: "))$/;"	m
+roll	drone.h	/^		double roll;$/;"	m	class:Drone
+rudder_h	attach/rudder.h	2;"	d
+s:cpo_save	ide.vim	/^let s:cpo_save=&cpo$/;"	v
+s:l	ide.vim	/^let s:l = 1 - ((0 * winheight(0) + 13) \/ 27)$/;"	v
+s:l	ide.vim	/^let s:l = 1 - ((0 * winheight(0) + 8) \/ 16)$/;"	v
+s:l	ide.vim	/^let s:l = 12 - ((11 * winheight(0) + 13) \/ 27)$/;"	v
+s:l	ide.vim	/^let s:l = 13 - ((12 * winheight(0) + 13) \/ 27)$/;"	v
+s:l	ide.vim	/^let s:l = 20 - ((19 * winheight(0) + 14) \/ 28)$/;"	v
+s:l	ide.vim	/^let s:l = 24 - ((13 * winheight(0) + 13) \/ 27)$/;"	v
+s:l	ide.vim	/^let s:l = 4 - ((3 * winheight(0) + 13) \/ 27)$/;"	v
+s:l	ide.vim	/^let s:l = 6 - ((5 * winheight(0) + 13) \/ 27)$/;"	v
+s:l	ide.vim	/^let s:l = 7 - ((6 * winheight(0) + 13) \/ 27)$/;"	v
+s:l	ide.vim	/^let s:l = 8 - ((7 * winheight(0) + 13) \/ 27)$/;"	v
+s:l	ide.vim	/^let s:l = 9 - ((8 * winheight(0) + 13) \/ 27)$/;"	v
+s:so_save	ide.vim	/^let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0$/;"	v
+s:sx	ide.vim	/^let s:sx = expand("<sfile>:p:r")."x.vim"$/;"	v
+s:wipebuf	ide.vim	/^  let s:wipebuf = bufnr('%')$/;"	v
+sensor_h	sensors/sensor.h	2;"	d
+set_world	sensors/sensor.cpp	/^void Sensor<T>::set_world(World* world)$/;"	f	class:Sensor
+setup_world	test.cpp	/^void setup_world(World* w)$/;"	f
+spawn_drone	test.cpp	/^void spawn_drone(Drone* d, World* w)$/;"	f
+spawn_entity	world.cpp	/^int World::spawn_entity(Entity* e, int x, int y, int z)$/;"	f	class:World
+thrust_forward	drone.h	/^		Attach* const thrust_forward;$/;"	m	class:Drone
+thrust_h	attach/thrust.h	2;"	d
+thrust_left	drone.h	/^		Attach* const thrust_left;$/;"	m	class:Drone
+thrust_right	drone.h	/^		Attach* const thrust_right;$/;"	m	class:Drone
+tick	world.cpp	/^void World::tick(double time)$/;"	f	class:World
+value	sensors/sensor.h	/^		T value;$/;"	m	class:Sensor
+vect	world/entity.h	/^		vect3d* vect;$/;"	m	class:Entity
+vect3d	misc/vect3d.h	/^	vect3d() : w(0), x(0), y(0), z(0)$/;"	f	struct:vect3d
+vect3d	misc/vect3d.h	/^	vect3d(double w_val, double x_val, double y_val, double z_val)$/;"	f	struct:vect3d
+vect3d	misc/vect3d.h	/^struct vect3d$/;"	s
+vect3d_h	misc/vect3d.h	2;"	d
+w	misc/vect3d.h	/^	double w; \/\/ speed$/;"	m	struct:vect3d
+world_h	world.h	2;"	d
+x	misc/vect3d.h	/^	double x;$/;"	m	struct:vect3d
+y	misc/vect3d.h	/^	double y;$/;"	m	struct:vect3d
+yaw	drone.h	/^		double yaw;$/;"	m	class:Drone
+z	misc/vect3d.h	/^	double z;$/;"	m	struct:vect3d
+zt	ide.vim	/^normal! zt$/;"	m
+{	ide.vim	/^imap <buffer> { <Plug>delimitMate{$/;"	m
+}	ide.vim	/^imap <buffer> } <Plug>delimitMate}$/;"	m
