@@ -1,0 +1,73 @@
+.TH "World" 3 "Wed Aug 16 2017" "Drone" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+World
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBWorld\fP (int size_x, int size_y, int size_z, double gravity)"
+.br
+.ti -1c
+.RI "int \fBspawn_entity\fP (\fBEntity\fP *e, int x, int y, int z)"
+.br
+.ti -1c
+.RI "void \fBtick\fP (double time)"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "World::World (int size_x, int size_y, int size_z, double gravity)"
+Constructor for a \fBWorld\fP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsize_x\fP Size in x direction 
+.br
+\fIsize_y\fP Size in y direction 
+.br
+\fIsize_z\fP Size in z direction 
+.br
+\fIgravity\fP Gravity in this \fBWorld\fP 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "int World::spawn_entity (\fBEntity\fP * e, int x, int y, int z)"
+spawn a entity into the world
+.PP
+\fBParameters:\fP
+.RS 4
+\fIe\fP \fBEntity\fP to spawn 
+.br
+\fIx\fP x position 
+.br
+\fIy\fP y position 
+.br
+\fIz\fP z position 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+error code (0 = everything is ok) 
+.RE
+.PP
+
+.SS "void World::tick (double time)"
+basic tick function
+.PP
+\fBParameters:\fP
+.RS 4
+\fItime\fP number of seconds 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Drone from the source code\&.

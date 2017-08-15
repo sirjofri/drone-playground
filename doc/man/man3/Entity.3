@@ -1,0 +1,60 @@
+.TH "Entity" 3 "Wed Aug 16 2017" "Drone" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Entity
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBDrone\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "const \fBvect3d\fP * \fBget_position\fP ()"
+.br
+.ti -1c
+.RI "void \fBmove\fP (const \fBvect3d\fP a, double time)"
+.br
+.ti -1c
+.RI "void \fBinitialize\fP (\fBvect3d\fP *location, \fBvect3d\fP *direction)"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "const \fBvect3d\fP* Entity::get_position ()\fC [inline]\fP"
+get the position of the entity
+.PP
+\fBReturns:\fP
+.RS 4
+position of the entity 
+.RE
+.PP
+
+.SS "void Entity::initialize (\fBvect3d\fP * location, \fBvect3d\fP * direction)\fC [inline]\fP"
+initialize the entity (or: move the object around, like warp)
+.PP
+\fBParameters:\fP
+.RS 4
+\fIlocation\fP the location where the object should be placed 
+.br
+\fIdirection\fP acceleration direction 
+.RE
+.PP
+
+.SS "void Entity::move (const \fBvect3d\fP a, double time)\fC [inline]\fP"
+move the entity around
+.PP
+\fBParameters:\fP
+.RS 4
+\fIa\fP direction, normalized with time 
+.br
+\fItime\fP the passed time 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Drone from the source code\&.

@@ -19,17 +19,23 @@
 '	ide.vim	/^imap <buffer> ' <Plug>delimitMate'$/;"	m
 (	ide.vim	/^imap <buffer> ( <Plug>delimitMate($/;"	m
 )	ide.vim	/^imap <buffer> ) <Plug>delimitMate)$/;"	m
+0	doc/html/search/searchdata.js	/^  0: "All",$/;"	p	class:indexSectionLabels
+0	doc/html/search/searchdata.js	/^  0: "adegimrstvw",$/;"	p	class:indexSectionsWithContent
+0	doc/html/search/searchdata.js	/^  0: "all",$/;"	p	class:indexSectionNames
 0	ide.vim	/^normal! 0$/;"	m
+010|	ide.vim	/^normal! 010|$/;"	m
 011|	ide.vim	/^normal! 011|$/;"	m
 012|	ide.vim	/^normal! 012|$/;"	m
-018|	ide.vim	/^normal! 018|$/;"	m
+014|	ide.vim	/^normal! 014|$/;"	m
+019|	ide.vim	/^normal! 019|$/;"	m
 024|	ide.vim	/^normal! 024|$/;"	m
-025|	ide.vim	/^normal! 025|$/;"	m
-028|	ide.vim	/^normal! 028|$/;"	m
-033|	ide.vim	/^normal! 033|$/;"	m
-058|	ide.vim	/^normal! 058|$/;"	m
 05|	ide.vim	/^normal! 05|$/;"	m
-063|	ide.vim	/^normal! 063|$/;"	m
+1	doc/html/search/searchdata.js	/^  1: "Classes",$/;"	p	class:indexSectionLabels
+1	doc/html/search/searchdata.js	/^  1: "aderstvw",$/;"	p	class:indexSectionsWithContent
+1	doc/html/search/searchdata.js	/^  1: "classes",$/;"	p	class:indexSectionNames
+2	doc/html/search/searchdata.js	/^  2: "Functions"$/;"	p	class:indexSectionLabels
+2	doc/html/search/searchdata.js	/^  2: "adgimstw"$/;"	p	class:indexSectionsWithContent
+2	doc/html/search/searchdata.js	/^  2: "functions"$/;"	p	class:indexSectionNames
 <BS>	ide.vim	/^imap <buffer> <BS> <Plug>delimitMateBS$/;"	m
 <C-CR>	ide.vim	/^map <C-CR> :call Synctex()$/;"	m
 <NL>	ide.vim	/^nnoremap <silent> <NL> :TmuxNavigateDown$/;"	m
@@ -40,41 +46,106 @@
 <S-BS>	ide.vim	/^imap <buffer> <S-BS> <Plug>delimitMateS-BS$/;"	m
 <S-Tab>	ide.vim	/^imap <buffer> <S-Tab> <Plug>delimitMateS-Tab$/;"	m
 <SNR>38_:	ide.vim	/^nnoremap <SNR>38_: :=v:count ? v:count : ''$/;"	m
+Activate	doc/html/search/search.js	/^  this.Activate = function(isActive)$/;"	m	class:SearchBox
 Attach	attach/attach.cpp	/^Attach::Attach(double _mass,$/;"	f	class:Attach
 Attach	attach/attach.h	/^class Attach$/;"	c
+CloseResultsWindow	doc/html/search/search.js	/^  this.CloseResultsWindow = function()$/;"	m	class:SearchBox
+CloseSelectionWindow	doc/html/search/search.js	/^  this.CloseSelectionWindow = function()$/;"	m	class:SearchBox
+DOMPopupSearchResults	doc/html/search/search.js	/^  this.DOMPopupSearchResults = function()$/;"	m	class:SearchBox
+DOMPopupSearchResultsWindow	doc/html/search/search.js	/^  this.DOMPopupSearchResultsWindow = function()$/;"	m	class:SearchBox
+DOMSearchBox	doc/html/search/search.js	/^  this.DOMSearchBox = function()$/;"	m	class:SearchBox
+DOMSearchClose	doc/html/search/search.js	/^  this.DOMSearchClose = function()$/;"	m	class:SearchBox
+DOMSearchField	doc/html/search/search.js	/^  this.DOMSearchField = function()$/;"	m	class:SearchBox
+DOMSearchSelect	doc/html/search/search.js	/^  this.DOMSearchSelect = function()$/;"	m	class:SearchBox
+DOMSearchSelectWindow	doc/html/search/search.js	/^  this.DOMSearchSelectWindow = function()$/;"	m	class:SearchBox
 Drone	drone.cpp	/^Drone::Drone(double _mass,$/;"	f	class:Drone
 Drone	drone.h	/^class Drone : public Entity$/;"	c
 Entity	world/entity.h	/^class Entity$/;"	c
+FindChildElement	doc/html/search/search.js	/^    this.FindChildElement = function(id)$/;"	m	class:SearchResults
+NAVTREE	doc/html/navtreedata.js	/^var NAVTREE =$/;"	v
+NAVTREEINDEX	doc/html/navtreedata.js	/^var NAVTREEINDEX =$/;"	v
+Nav	doc/html/search/search.js	/^    this.Nav = function(evt,itemIndex)$/;"	m	class:SearchResults
+NavChild	doc/html/search/search.js	/^    this.NavChild = function(evt,itemIndex,childIndex)$/;"	m	class:SearchResults
+NavNext	doc/html/search/search.js	/^    this.NavNext = function(index)$/;"	m	class:SearchResults
+NavPrev	doc/html/search/search.js	/^    this.NavPrev = function(index)$/;"	m	class:SearchResults
+OnSearchFieldChange	doc/html/search/search.js	/^  this.OnSearchFieldChange = function(evt)$/;"	m	class:SearchBox
+OnSearchFieldFocus	doc/html/search/search.js	/^  this.OnSearchFieldFocus = function(isActive)$/;"	m	class:SearchBox
+OnSearchSelectHide	doc/html/search/search.js	/^  this.OnSearchSelectHide = function()$/;"	m	class:SearchBox
+OnSearchSelectKey	doc/html/search/search.js	/^  this.OnSearchSelectKey = function(evt)$/;"	m	class:SearchBox
+OnSearchSelectShow	doc/html/search/search.js	/^  this.OnSearchSelectShow = function()$/;"	m	class:SearchBox
+OnSelectItem	doc/html/search/search.js	/^  this.OnSelectItem = function(id)$/;"	m	class:SearchBox
+ProcessKeys	doc/html/search/search.js	/^    this.ProcessKeys = function(e)$/;"	m	class:SearchResults
 Rudder	attach/rudder.cpp	/^Rudder::Rudder(double min_pos, double max_pos)$/;"	f	class:Rudder
 Rudder	attach/rudder.h	/^class Rudder : public Attach$/;"	c
+SYNCOFFMSG	doc/html/navtreedata.js	/^var SYNCOFFMSG = 'click to enable panel synchronisation';/;"	v
+SYNCONMSG	doc/html/navtreedata.js	/^var SYNCONMSG = 'click to disable panel synchronisation';$/;"	v
+Search	doc/html/search/search.js	/^    this.Search = function(search)$/;"	m	class:SearchResults
+Search	doc/html/search/search.js	/^  this.Search = function()$/;"	m	class:SearchBox
+SearchBox	doc/html/search/search.js	/^function SearchBox(name, resultsPath, inFrame, label)$/;"	c
+SearchResults	doc/html/search/search.js	/^function SearchResults(name)$/;"	c
+SelectItemCount	doc/html/search/search.js	/^  this.SelectItemCount = function(id)$/;"	m	class:SearchBox
+SelectItemSet	doc/html/search/search.js	/^  this.SelectItemSet = function(id)$/;"	m	class:SearchBox
 Sensor	sensors/sensor.cpp	/^Sensor<T>::Sensor(double mass)$/;"	f	class:Sensor
 Sensor	sensors/sensor.h	/^class Sensor : public Attach$/;"	c
 SessionLoad	ide.vim	/^let SessionLoad = 1$/;"	v
 Thrust	attach/thrust.cpp	/^Thrust::Thrust(double min, double max)$/;"	f	class:Thrust
 Thrust	attach/thrust.h	/^class Thrust : public Attach$/;"	c
+Toggle	doc/html/search/search.js	/^    this.Toggle = function(id)$/;"	m	class:SearchResults
 World	world.cpp	/^World::World(int size_x,$/;"	f	class:World
 World	world.h	/^class World$/;"	c
 [	ide.vim	/^imap <buffer> [ <Plug>delimitMate[$/;"	m
 ]	ide.vim	/^imap <buffer> ] <Plug>delimitMate]$/;"	m
 _gravity	world.h	/^		vect3d* _gravity;$/;"	m	class:World
+_preventDefault	doc/html/resize.js	/^  var _preventDefault = function(evt) { evt.preventDefault(); };$/;"	f
 _size_x	world.h	/^		const int _size_x;$/;"	m	class:World
 _size_y	world.h	/^		const int _size_y;$/;"	m	class:World
 _size_z	world.h	/^		const int _size_z;$/;"	m	class:World
 _world	sensors/sensor.h	/^		World* _world;$/;"	m	class:Sensor
 `	ide.vim	/^imap <buffer> ` <Plug>delimitMate`$/;"	m
+a.onclick	doc/html/navtree.js	/^      a.onclick = function(){$/;"	f
 altitude	drone.h	/^		Sensor<double>* const altitude;$/;"	m	class:Drone
+animationInProgress	doc/html/navtree.js	/^var animationInProgress = false;$/;"	v
+annotated.html	doc/html/navtreeindex0.js	/^"annotated.html":[0,0],$/;"	p	class:NAVTREEINDEX0
+annotated_dup	doc/html/annotated_dup.js	/^var annotated_dup =$/;"	v
+arrowDown	doc/html/navtree.js	/^var arrowDown = '&#9660;';$/;"	v
+arrowRight	doc/html/navtree.js	/^var arrowRight = '&#9658;';$/;"	v
 attach_h	attach/attach.h	2;"	d
+cachedLink	doc/html/navtree.js	/^function cachedLink()$/;"	f
+children	doc/html/menudata.js	/^var menudata={children:[$/;"	p	class:menudata
+class_attach	doc/html/class_attach.js	/^var class_attach =$/;"	v
+class_drone	doc/html/class_drone.js	/^var class_drone =$/;"	v
+class_entity	doc/html/class_entity.js	/^var class_entity =$/;"	v
+class_rudder	doc/html/class_rudder.js	/^var class_rudder =$/;"	v
+class_sensor	doc/html/class_sensor.js	/^var class_sensor =$/;"	v
+class_thrust	doc/html/class_thrust.js	/^var class_thrust =$/;"	v
+class_world	doc/html/class_world.js	/^var class_world =$/;"	v
+collapseExpand	doc/html/resize.js	/^  function collapseExpand()$/;"	f	function:initResizable
+convertToId	doc/html/search/search.js	/^function convertToId(search)$/;"	f
+createIndent	doc/html/navtree.js	/^function createIndent(o,domNode,node,level)$/;"	f
+createResults	doc/html/search/search.js	/^function createResults()$/;"	f
 current	attach/attach.h	/^		double current;$/;"	m	class:Attach
+deleteLink	doc/html/navtree.js	/^function deleteLink()$/;"	f
+dir_3ff1e9f65968efeab348f592de6a44d0	doc/html/dir_3ff1e9f65968efeab348f592de6a44d0.js	/^var dir_3ff1e9f65968efeab348f592de6a44d0 =$/;"	v
+dir_a52f4d3d586a58b02f3a4ddf0a992157	doc/html/dir_a52f4d3d586a58b02f3a4ddf0a992157.js	/^var dir_a52f4d3d586a58b02f3a4ddf0a992157 =$/;"	v
+dir_c77a8e2546a9c75bbba96be2ef542c8e	doc/html/dir_c77a8e2546a9c75bbba96be2ef542c8e.js	/^var dir_c77a8e2546a9c75bbba96be2ef542c8e =$/;"	v
+dir_cadddfe7f86d0e152e92d814fe81e3e8	doc/html/dir_cadddfe7f86d0e152e92d814fe81e3e8.js	/^var dir_cadddfe7f86d0e152e92d814fe81e3e8 =$/;"	v
 drone_h	drone.h	2;"	d
-entity	world.h	/^		Entity* entity; \/\/ TODO: vector$/;"	m	class:World
+entity	world.h	/^		Entity* entity; \/\/ TODO: vector\/array$/;"	m	class:World
 entity_h	world/entity.h	2;"	d
+expandNode	doc/html/navtree.js	/^function expandNode(o, node, imm, showRoot)$/;"	f
+files	doc/html/files.js	/^var files =$/;"	v
+getData	doc/html/navtree.js	/^function getData(varName)$/;"	f
+getNode	doc/html/navtree.js	/^function getNode(o, po)$/;"	f
+getScript	doc/html/navtree.js	/^function getScript(scriptName,func,show)$/;"	f
+getXPos	doc/html/search/search.js	/^function getXPos(item)$/;"	f
+getYPos	doc/html/search/search.js	/^function getYPos(item)$/;"	f
 get_current	attach/attach.cpp	/^double Attach::get_current()$/;"	f	class:Attach
-get_direction	drone.cpp	/^vect3d* Drone::get_direction()$/;"	f	class:Drone
 get_mass	attach/attach.cpp	/^const double Attach::get_mass()$/;"	f	class:Attach
 get_mass	drone.cpp	/^const double Drone::get_mass()$/;"	f	class:Drone
 get_max	attach/attach.cpp	/^const double Attach::get_max()$/;"	f	class:Attach
 get_min	attach/attach.cpp	/^const double Attach::get_min()$/;"	f	class:Attach
 get_pitch	drone.cpp	/^double Drone::get_pitch()$/;"	f	class:Drone
+get_position	world/entity.h	/^		const vect3d* get_position() { return position; };$/;"	f	class:Entity
 get_roll	drone.cpp	/^double Drone::get_roll()$/;"	f	class:Drone
 get_rudder_pitch	drone.cpp	/^Attach* const Drone::get_rudder_pitch()$/;"	f	class:Drone
 get_s_altitude	drone.cpp	/^Sensor<double>* const Drone::get_s_altitude()$/;"	f	class:Drone
@@ -82,59 +153,156 @@ get_thrust_f	drone.cpp	/^Attach* const Drone::get_thrust_f()$/;"	f	class:Drone
 get_thrust_l	drone.cpp	/^Attach* const Drone::get_thrust_l()$/;"	f	class:Drone
 get_thrust_r	drone.cpp	/^Attach* const Drone::get_thrust_r()$/;"	f	class:Drone
 get_value	sensors/sensor.cpp	/^T Sensor<T>::get_value()$/;"	f	class:Sensor
-get_vect	world/entity.h	/^		const vect3d* get_vect() { return vect; };$/;"	f	class:Entity
 get_yaw	drone.cpp	/^double Drone::get_yaw()$/;"	f	class:Drone
+glowEffect	doc/html/navtree.js	/^function glowEffect(n,duration)$/;"	f
+gotoAnchor	doc/html/navtree.js	/^function gotoAnchor(anchor,aname,updateLocation)$/;"	f
+gotoNode	doc/html/navtree.js	/^function gotoNode(o,subIndex,root,hash,relpath)$/;"	f
 gx	ide.vim	/^nmap gx <Plug>NetrwBrowseX$/;"	m
 gx	ide.vim	/^vmap gx <Plug>NetrwBrowseXVis$/;"	m
+hashUrl	doc/html/navtree.js	/^function hashUrl()$/;"	f
+hashValue	doc/html/navtree.js	/^function hashValue()$/;"	f
+hierarchy	doc/html/hierarchy.js	/^var hierarchy =$/;"	v
+highlightAnchor	doc/html/navtree.js	/^function highlightAnchor()$/;"	f
 il	ide.vim	/^vnoremap il :call CommentOut(input("Insert Leading Symbol: "))$/;"	m
-is_static	world/entity.h	/^		bool is_static;$/;"	m	class:Entity
+initMenu	doc/html/menu.js	/^function initMenu(relPath,searchEnabled,serverSide,searchPage,search) {$/;"	f
+initNavTree	doc/html/navtree.js	/^function initNavTree(toroot,relpath)$/;"	f
+initResizable	doc/html/resize.js	/^function initResizable()$/;"	f
+init_search	doc/html/search/search.js	/^function init_search()$/;"	f
+initialize	world/entity.h	/^		void initialize(vect3d* location, vect3d* direction) { position = location; movement = direction; };$/;"	f	class:Entity
+is_static	world/entity.h	/^		bool is_static = false;$/;"	m	class:Entity
+l00001	doc/html/attach_8h_source.html	/^<div class="fragment"><div class="line"><a name="l00001"><\/a><span class="lineno">    1<\/span>&#160;<span class="preprocessor">#ifndef attach_h<\/span><\/div><div class="line"><a name="l00002"><\/a><span class="lineno">    2<\/span>&#160;<span class="preprocessor">#define attach_h<\/span><\/div><div class="line"><a name="l00003"><\/a><span class="lineno">    3<\/span>&#160;<\/div><div class="line"><a name="l00004"><\/a><span class="lineno"><a class="line" href="class_attach.html">    4<\/a><\/span>&#160;<span class="keyword">class <\/span><a class="code" href="class_attach.html">Attach<\/a><\/div><div class="line"><a name="l00005"><\/a><span class="lineno">    5<\/span>&#160;{<\/div><div class="line"><a name="l00006"><\/a><span class="lineno">    6<\/span>&#160;    <span class="keyword">public<\/span>:<\/div><div class="line"><a name="l00014"><\/a><span class="lineno">   14<\/span>&#160;        <a class="code" href="class_attach.html#a585664ca273016d511a47c2108f39194">Attach<\/a>(<span class="keywordtype">double<\/span> mass,<\/div><div class="line"><a name="l00015"><\/a><span class="lineno">   15<\/span>&#160;               <span class="keywordtype">double<\/span> min,<\/div><div class="line"><a name="l00016"><\/a><span class="lineno">   16<\/span>&#160;               <span class="keywordtype">double<\/span> max,<\/div><div class="line"><a name="l00017"><\/a><span class="lineno">   17<\/span>&#160;               <span class="keywordtype">double<\/span> initial);<\/div><div class="line"><a name="l00018"><\/a><span class="lineno">   18<\/span>&#160;        <\/div><div class="line"><a name="l00023"><\/a><span class="lineno">   23<\/span>&#160;        <span class="keyword">const<\/span> <span class="keywordtype">double<\/span> <a class="code" href="class_attach.html#ab3ed30484c8ee709bb9acb089254782f">get_mass<\/a>();<\/div><div class="line"><a name="l00024"><\/a><span class="lineno">   24<\/span>&#160;<\/div><div class="line"><a name="l00029"><\/a><span class="lineno">   29<\/span>&#160;        <span class="keyword">const<\/span> <span class="keywordtype">double<\/span> <a class="code" href="class_attach.html#a2370fac8d9e9584280538c7963d1d1ac">get_min<\/a>();<\/div><div class="line"><a name="l00030"><\/a><span class="lineno">   30<\/span>&#160;<\/div><div class="line"><a name="l00035"><\/a><span class="lineno">   35<\/span>&#160;        <span class="keyword">const<\/span> <span class="keywordtype">double<\/span> <a class="code" href="class_attach.html#abe687a1f54ffd524e97d77adf85e165c">get_max<\/a>();<\/div><div class="line"><a name="l00036"><\/a><span class="lineno">   36<\/span>&#160;<\/div><div class="line"><a name="l00041"><\/a><span class="lineno">   41<\/span>&#160;        <span class="keywordtype">double<\/span> <a class="code" href="class_attach.html#ad0c704d8f5d419e4d92e4aa8f07d70ad">get_current<\/a>();<\/div><div class="line"><a name="l00042"><\/a><span class="lineno">   42<\/span>&#160;<\/div><div class="line"><a name="l00043"><\/a><span class="lineno">   43<\/span>&#160;    <span class="keyword">private<\/span>:<\/div><div class="line"><a name="l00044"><\/a><span class="lineno">   44<\/span>&#160;        <span class="keyword">const<\/span> <span class="keywordtype">double<\/span> mass;<\/div><div class="line"><a name="l00045"><\/a><span class="lineno">   45<\/span>&#160;        <span class="keyword">const<\/span> <span class="keywordtype">double<\/span> min;<\/div><div class="line"><a name="l00046"><\/a><span class="lineno">   46<\/span>&#160;        <span class="keyword">const<\/span> <span class="keywordtype">double<\/span> max;<\/div><div class="line"><a name="l00047"><\/a><span class="lineno">   47<\/span>&#160;        <span class="keywordtype">double<\/span> current;<\/div><div class="line"><a name="l00048"><\/a><span class="lineno">   48<\/span>&#160;    <span class="keyword">protected<\/span>:<\/div><div class="line"><a name="l00049"><\/a><span class="lineno">   49<\/span>&#160;};<\/div><div class="line"><a name="l00050"><\/a><span class="lineno">   50<\/span>&#160;<\/div><div class="line"><a name="l00051"><\/a><span class="lineno">   51<\/span>&#160;<span class="comment">\/\/ vim:ts=4:sw=4:noet:<\/span><\/div><div class="line"><a name="l00052"><\/a><span class="lineno">   52<\/span>&#160;<span class="preprocessor">#endif<\/span><\/div><div class="ttc" id="class_attach_html_abe687a1f54ffd524e97d77adf85e165c"><div class="ttname"><a href="class_attach.html#abe687a1f54ffd524e97d77adf85e165c">Attach::get_max<\/a><\/div><div class="ttdeci">const double get_max()<\/div><div class="ttdef"><b>Definition:<\/b> attach.cpp:25<\/div><\/div>$/;"	a
+l00001	doc/html/drone_8h_source.html	/^<div class="fragment"><div class="line"><a name="l00001"><\/a><span class="lineno">    1<\/span>&#160;<span class="preprocessor">#ifndef drone_h<\/span><\/div><div class="line"><a name="l00002"><\/a><span class="lineno">    2<\/span>&#160;<span class="preprocessor">#define drone_h<\/span><\/div><div class="line"><a name="l00003"><\/a><span class="lineno">    3<\/span>&#160;<span class="preprocessor">#include &quot;world\/entity.h&quot;<\/span><\/div><div class="line"><a name="l00004"><\/a><span class="lineno">    4<\/span>&#160;<span class="preprocessor">#include &quot;attach\/attach.h&quot;<\/span><\/div><div class="line"><a name="l00005"><\/a><span class="lineno">    5<\/span>&#160;<span class="preprocessor">#include &quot;attach\/thrust.h&quot;<\/span><\/div><div class="line"><a name="l00006"><\/a><span class="lineno">    6<\/span>&#160;<span class="preprocessor">#include &quot;attach\/rudder.h&quot;<\/span><\/div><div class="line"><a name="l00007"><\/a><span class="lineno">    7<\/span>&#160;<span class="preprocessor">#include &quot;sensors\/sensor.cpp&quot;<\/span><\/div><div class="line"><a name="l00008"><\/a><span class="lineno">    8<\/span>&#160;<span class="preprocessor">#include &quot;misc\/vect3d.h&quot;<\/span><\/div><div class="line"><a name="l00009"><\/a><span class="lineno">    9<\/span>&#160;<\/div><div class="line"><a name="l00010"><\/a><span class="lineno"><a class="line" href="class_drone.html">   10<\/a><\/span>&#160;<span class="keyword">class <\/span><a class="code" href="class_drone.html">Drone<\/a> : <span class="keyword">public<\/span> <a class="code" href="class_entity.html">Entity<\/a><\/div><div class="line"><a name="l00011"><\/a><span class="lineno">   11<\/span>&#160;{<\/div><div class="line"><a name="l00012"><\/a><span class="lineno">   12<\/span>&#160;    <span class="keyword">public<\/span>:<\/div><div class="line"><a name="l00021"><\/a><span class="lineno">   21<\/span>&#160;        <a class="code" href="class_drone.html#af7c1edfd1707e66e636237d85fda644e">Drone<\/a>(<span class="keywordtype">double<\/span> _mass,<\/div><div class="line"><a name="l00022"><\/a><span class="lineno">   22<\/span>&#160;              <span class="keywordtype">double<\/span> thrust_lr,<\/div><div class="line"><a name="l00023"><\/a><span class="lineno">   23<\/span>&#160;              <span class="keywordtype">double<\/span> thrust_forward,<\/div><div class="line"><a name="l00024"><\/a><span class="lineno">   24<\/span>&#160;              <span class="keywordtype">double<\/span> rudder_min,<\/div><div class="line"><a name="l00025"><\/a><span class="lineno">   25<\/span>&#160;              <span class="keywordtype">double<\/span> rudder_max);<\/div><div class="line"><a name="l00026"><\/a><span class="lineno">   26<\/span>&#160;<\/div><div class="line"><a name="l00031"><\/a><span class="lineno">   31<\/span>&#160;        <span class="keywordtype">double<\/span> <a class="code" href="class_drone.html#a8211c50a2042dd59d2b241e574bfb97d">get_pitch<\/a>();<\/div><div class="line"><a name="l00032"><\/a><span class="lineno">   32<\/span>&#160;<\/div><div class="line"><a name="l00037"><\/a><span class="lineno">   37<\/span>&#160;        <span class="keywordtype">double<\/span> <a class="code" href="class_drone.html#a53ba5f1852569c7f31e46e06b3fad71c">get_yaw<\/a>();<\/div><div class="line"><a name="l00038"><\/a><span class="lineno">   38<\/span>&#160;<\/div><div class="line"><a name="l00043"><\/a><span class="lineno">   43<\/span>&#160;        <span class="keywordtype">double<\/span> <a class="code" href="class_drone.html#a0e876482316079964d233fc21f39ba51">get_roll<\/a>();<\/div><div class="line"><a name="l00044"><\/a><span class="lineno">   44<\/span>&#160;<\/div><div class="line"><a name="l00045"><\/a><span class="lineno">   45<\/span>&#160;        <span class="comment">\/\/ getter for attachments<\/span><\/div><div class="line"><a name="l00046"><\/a><span class="lineno">   46<\/span>&#160;        <a class="code" href="class_attach.html">Attach<\/a>* <span class="keyword">const<\/span> get_thrust_r();<\/div><div class="line"><a name="l00047"><\/a><span class="lineno">   47<\/span>&#160;        <a class="code" href="class_attach.html">Attach<\/a>* <span class="keyword">const<\/span> get_thrust_l();<\/div><div class="line"><a name="l00048"><\/a><span class="lineno">   48<\/span>&#160;        <a class="code" href="class_attach.html">Attach<\/a>* <span class="keyword">const<\/span> get_thrust_f();<\/div><div class="line"><a name="l00049"><\/a><span class="lineno">   49<\/span>&#160;        <a class="code" href="class_attach.html">Attach<\/a>* <span class="keyword">const<\/span> get_rudder_pitch();<\/div><div class="line"><a name="l00050"><\/a><span class="lineno">   50<\/span>&#160;<\/div><div class="line"><a name="l00055"><\/a><span class="lineno">   55<\/span>&#160;        <span class="keyword">const<\/span> <span class="keywordtype">double<\/span> <a class="code" href="class_drone.html#a4a246b8cff92232ae78d32b77be732d9">get_mass<\/a>();<\/div><div class="line"><a name="l00056"><\/a><span class="lineno">   56<\/span>&#160;<\/div><div class="line"><a name="l00061"><\/a><span class="lineno">   61<\/span>&#160;        <a class="code" href="class_sensor.html">Sensor&lt;double&gt;<\/a>* <span class="keyword">const<\/span> <a class="code" href="class_drone.html#a433dd741c6dffc6930562073f02953a9">get_s_altitude<\/a>();<\/div><div class="line"><a name="l00062"><\/a><span class="lineno">   62<\/span>&#160;<\/div><div class="line"><a name="l00063"><\/a><span class="lineno">   63<\/span>&#160;    <span class="keyword">private<\/span>:<\/div><div class="line"><a name="l00064"><\/a><span class="lineno">   64<\/span>&#160;        <span class="keyword">const<\/span> <span class="keywordtype">double<\/span> mass;<\/div><div class="line"><a name="l00065"><\/a><span class="lineno">   65<\/span>&#160;        <span class="keywordtype">double<\/span> pitch;<\/div><div class="line"><a name="l00066"><\/a><span class="lineno">   66<\/span>&#160;        <span class="keywordtype">double<\/span> yaw;<\/div><div class="line"><a name="l00067"><\/a><span class="lineno">   67<\/span>&#160;        <span class="keywordtype">double<\/span> roll;<\/div><div class="line"><a name="l00068"><\/a><span class="lineno">   68<\/span>&#160;        <a class="code" href="class_attach.html">Attach<\/a>* <span class="keyword">const<\/span> thrust_left;<\/div><div class="line"><a name="l00069"><\/a><span class="lineno">   69<\/span>&#160;        <a class="code" href="class_attach.html">Attach<\/a>* <span class="keyword">const<\/span> thrust_right;<\/div><div class="line"><a name="l00070"><\/a><span class="lineno">   70<\/span>&#160;        <a class="code" href="class_attach.html">Attach<\/a>* <span class="keyword">const<\/span> thrust_forward;<\/div><div class="line"><a name="l00071"><\/a><span class="lineno">   71<\/span>&#160;        <a class="code" href="class_attach.html">Attach<\/a>* <span class="keyword">const<\/span> r_pitch;<\/div><div class="line"><a name="l00072"><\/a><span class="lineno">   72<\/span>&#160;        <a class="code" href="class_sensor.html">Sensor&lt;double&gt;<\/a>* <span class="keyword">const<\/span> altitude;<\/div><div class="line"><a name="l00073"><\/a><span class="lineno">   73<\/span>&#160;};<\/div><div class="line"><a name="l00074"><\/a><span class="lineno">   74<\/span>&#160;<\/div><div class="line"><a name="l00075"><\/a><span class="lineno">   75<\/span>&#160;<span class="comment">\/\/ vim:ts=4:sw=4:noet:<\/span><\/div><div class="line"><a name="l00076"><\/a><span class="lineno">   76<\/span>&#160;<span class="preprocessor">#else<\/span><\/div><div class="line"><a name="l00077"><\/a><span class="lineno">   77<\/span>&#160;<span class="preprocessor">#endif<\/span><\/div><div class="ttc" id="class_sensor_html"><div class="ttname"><a href="class_sensor.html">Sensor&lt; double &gt;<\/a><\/div><\/div>$/;"	a
+l00001	doc/html/entity_8h_source.html	/^<div class="fragment"><div class="line"><a name="l00001"><\/a><span class="lineno">    1<\/span>&#160;<span class="preprocessor">#ifndef entity_h<\/span><\/div><div class="line"><a name="l00002"><\/a><span class="lineno">    2<\/span>&#160;<span class="preprocessor">#define entity_h<\/span><\/div><div class="line"><a name="l00003"><\/a><span class="lineno">    3<\/span>&#160;<span class="preprocessor">#include &quot;..\/misc\/vect3d.h&quot;<\/span><\/div><div class="line"><a name="l00004"><\/a><span class="lineno">    4<\/span>&#160;<\/div><div class="line"><a name="l00005"><\/a><span class="lineno"><a class="line" href="class_entity.html">    5<\/a><\/span>&#160;<span class="keyword">class <\/span><a class="code" href="class_entity.html">Entity<\/a><\/div><div class="line"><a name="l00006"><\/a><span class="lineno">    6<\/span>&#160;{<\/div><div class="line"><a name="l00007"><\/a><span class="lineno">    7<\/span>&#160;    <span class="keyword">public<\/span>:<\/div><div class="line"><a name="l00012"><\/a><span class="lineno"><a class="line" href="class_entity.html#af940478d03c393e3963454077ee2b935">   12<\/a><\/span>&#160;        <span class="keyword">const<\/span> <a class="code" href="structvect3d.html">vect3d<\/a>* <a class="code" href="class_entity.html#af940478d03c393e3963454077ee2b935">get_position<\/a>() { <span class="keywordflow">return<\/span> position; };<\/div><div class="line"><a name="l00013"><\/a><span class="lineno">   13<\/span>&#160;<\/div><div class="line"><a name="l00019"><\/a><span class="lineno"><a class="line" href="class_entity.html#ad8958aacfbb355cf3b0ccf9297ceb519">   19<\/a><\/span>&#160;        <span class="keywordtype">void<\/span> <a class="code" href="class_entity.html#ad8958aacfbb355cf3b0ccf9297ceb519">move<\/a>(<span class="keyword">const<\/span> <a class="code" href="structvect3d.html">vect3d<\/a> a, <span class="keywordtype">double<\/span> time) <span class="comment">\/\/ physical movement<\/span><\/div><div class="line"><a name="l00020"><\/a><span class="lineno">   20<\/span>&#160;        {<\/div><div class="line"><a name="l00021"><\/a><span class="lineno">   21<\/span>&#160;            <span class="keywordflow">if<\/span>( !is_static )<\/div><div class="line"><a name="l00022"><\/a><span class="lineno">   22<\/span>&#160;            {<\/div><div class="line"><a name="l00023"><\/a><span class="lineno">   23<\/span>&#160;                <a class="code" href="structvect3d.html">vect3d<\/a> own_movement = *movement * time;<\/div><div class="line"><a name="l00024"><\/a><span class="lineno">   24<\/span>&#160;                *position += own_movement;<\/div><div class="line"><a name="l00025"><\/a><span class="lineno">   25<\/span>&#160;                *movement += a;<\/div><div class="line"><a name="l00026"><\/a><span class="lineno">   26<\/span>&#160;            }<\/div><div class="line"><a name="l00027"><\/a><span class="lineno">   27<\/span>&#160;        };<\/div><div class="line"><a name="l00028"><\/a><span class="lineno">   28<\/span>&#160;<\/div><div class="line"><a name="l00034"><\/a><span class="lineno"><a class="line" href="class_entity.html#acb7674bec7bfa9c2ac22f069239c761f">   34<\/a><\/span>&#160;        <span class="keywordtype">void<\/span> <a class="code" href="class_entity.html#acb7674bec7bfa9c2ac22f069239c761f">initialize<\/a>(<a class="code" href="structvect3d.html">vect3d<\/a>* location, <a class="code" href="structvect3d.html">vect3d<\/a>* direction) { position = location; movement = direction; };<\/div><div class="line"><a name="l00035"><\/a><span class="lineno">   35<\/span>&#160;<\/div><div class="line"><a name="l00036"><\/a><span class="lineno">   36<\/span>&#160;    <span class="keyword">private<\/span>:<\/div><div class="line"><a name="l00037"><\/a><span class="lineno">   37<\/span>&#160;        <span class="keywordtype">bool<\/span> is_static = <span class="keyword">false<\/span>;<\/div><div class="line"><a name="l00038"><\/a><span class="lineno">   38<\/span>&#160;        <a class="code" href="structvect3d.html">vect3d<\/a>* position;<\/div><div class="line"><a name="l00039"><\/a><span class="lineno">   39<\/span>&#160;        <a class="code" href="structvect3d.html">vect3d<\/a>* movement;<\/div><div class="line"><a name="l00040"><\/a><span class="lineno">   40<\/span>&#160;};<\/div><div class="line"><a name="l00041"><\/a><span class="lineno">   41<\/span>&#160;<\/div><div class="line"><a name="l00042"><\/a><span class="lineno">   42<\/span>&#160;<span class="comment">\/\/ vim:ts=4:sw=4:noet:<\/span><\/div><div class="line"><a name="l00043"><\/a><span class="lineno">   43<\/span>&#160;<span class="preprocessor">#endif<\/span><\/div><div class="ttc" id="class_entity_html_acb7674bec7bfa9c2ac22f069239c761f"><div class="ttname"><a href="class_entity.html#acb7674bec7bfa9c2ac22f069239c761f">Entity::initialize<\/a><\/div><div class="ttdeci">void initialize(vect3d *location, vect3d *direction)<\/div><div class="ttdef"><b>Definition:<\/b> entity.h:34<\/div><\/div>$/;"	a
+l00001	doc/html/rudder_8h_source.html	/^<div class="fragment"><div class="line"><a name="l00001"><\/a><span class="lineno">    1<\/span>&#160;<span class="preprocessor">#ifndef rudder_h<\/span><\/div><div class="line"><a name="l00002"><\/a><span class="lineno">    2<\/span>&#160;<span class="preprocessor">#define rudder_h<\/span><\/div><div class="line"><a name="l00003"><\/a><span class="lineno">    3<\/span>&#160;<span class="preprocessor">#include &quot;attach.h&quot;<\/span><\/div><div class="line"><a name="l00004"><\/a><span class="lineno">    4<\/span>&#160;<\/div><div class="line"><a name="l00005"><\/a><span class="lineno"><a class="line" href="class_rudder.html">    5<\/a><\/span>&#160;<span class="keyword">class <\/span><a class="code" href="class_rudder.html">Rudder<\/a> : <span class="keyword">public<\/span> <a class="code" href="class_attach.html">Attach<\/a><\/div><div class="line"><a name="l00006"><\/a><span class="lineno">    6<\/span>&#160;{<\/div><div class="line"><a name="l00007"><\/a><span class="lineno">    7<\/span>&#160;    <span class="keyword">public<\/span>:<\/div><div class="line"><a name="l00008"><\/a><span class="lineno">    8<\/span>&#160;        <span class="keyword">using<\/span> <a class="code" href="class_attach.html#a585664ca273016d511a47c2108f39194">Attach::Attach<\/a>;<\/div><div class="line"><a name="l00009"><\/a><span class="lineno">    9<\/span>&#160;        <a class="code" href="class_rudder.html">Rudder<\/a>(<span class="keywordtype">double<\/span> min_pos, <span class="keywordtype">double<\/span> max_pos);<\/div><div class="line"><a name="l00010"><\/a><span class="lineno">   10<\/span>&#160;};<\/div><div class="line"><a name="l00011"><\/a><span class="lineno">   11<\/span>&#160;<\/div><div class="line"><a name="l00012"><\/a><span class="lineno">   12<\/span>&#160;<span class="comment">\/\/ vim:ts=4:sw=4:noet:<\/span><\/div><div class="line"><a name="l00013"><\/a><span class="lineno">   13<\/span>&#160;<span class="preprocessor">#endif<\/span><\/div><div class="ttc" id="class_rudder_html"><div class="ttname"><a href="class_rudder.html">Rudder<\/a><\/div><div class="ttdef"><b>Definition:<\/b> rudder.h:5<\/div><\/div>$/;"	a
+l00001	doc/html/sensor_8h_source.html	/^<div class="fragment"><div class="line"><a name="l00001"><\/a><span class="lineno">    1<\/span>&#160;<span class="preprocessor">#ifndef sensor_h<\/span><\/div><div class="line"><a name="l00002"><\/a><span class="lineno">    2<\/span>&#160;<span class="preprocessor">#define sensor_h<\/span><\/div><div class="line"><a name="l00003"><\/a><span class="lineno">    3<\/span>&#160;<span class="preprocessor">#include &quot;..\/attach\/attach.h&quot;<\/span><\/div><div class="line"><a name="l00004"><\/a><span class="lineno">    4<\/span>&#160;<span class="preprocessor">#include &quot;..\/world.h&quot;<\/span><\/div><div class="line"><a name="l00005"><\/a><span class="lineno">    5<\/span>&#160;<\/div><div class="line"><a name="l00006"><\/a><span class="lineno">    6<\/span>&#160;<span class="keyword">template<\/span>&lt;<span class="keyword">typename<\/span> T&gt;<\/div><div class="line"><a name="l00007"><\/a><span class="lineno"><a class="line" href="class_sensor.html">    7<\/a><\/span>&#160;<span class="keyword">class <\/span><a class="code" href="class_sensor.html">Sensor<\/a> : <span class="keyword">public<\/span> <a class="code" href="class_attach.html">Attach<\/a><\/div><div class="line"><a name="l00008"><\/a><span class="lineno">    8<\/span>&#160;{<\/div><div class="line"><a name="l00009"><\/a><span class="lineno">    9<\/span>&#160;    <span class="keyword">public<\/span>:<\/div><div class="line"><a name="l00010"><\/a><span class="lineno">   10<\/span>&#160;        <span class="keyword">using<\/span> <a class="code" href="class_attach.html#a585664ca273016d511a47c2108f39194">Attach::Attach<\/a>;<\/div><div class="line"><a name="l00011"><\/a><span class="lineno">   11<\/span>&#160;<\/div><div class="line"><a name="l00016"><\/a><span class="lineno">   16<\/span>&#160;        <a class="code" href="class_sensor.html">Sensor&lt;T&gt;<\/a>(<span class="keywordtype">double<\/span> mass);<\/div><div class="line"><a name="l00017"><\/a><span class="lineno">   17<\/span>&#160;<\/div><div class="line"><a name="l00022"><\/a><span class="lineno">   22<\/span>&#160;        <span class="keyword">virtual<\/span> T <a class="code" href="class_sensor.html#ae4a7582d499efd6594c5e63a48372a8d">get_value<\/a>();<\/div><div class="line"><a name="l00023"><\/a><span class="lineno">   23<\/span>&#160;<\/div><div class="line"><a name="l00028"><\/a><span class="lineno">   28<\/span>&#160;        <span class="keywordtype">void<\/span> <a class="code" href="class_sensor.html#a4a5498046b237f7e7c1e5d63a7993c3d">set_world<\/a>(<a class="code" href="class_world.html">World<\/a>* world);<\/div><div class="line"><a name="l00029"><\/a><span class="lineno">   29<\/span>&#160;<\/div><div class="line"><a name="l00030"><\/a><span class="lineno">   30<\/span>&#160;    <span class="keyword">protected<\/span>:<\/div><div class="line"><a name="l00031"><\/a><span class="lineno">   31<\/span>&#160;        <a class="code" href="class_world.html">World<\/a>* _world;<\/div><div class="line"><a name="l00032"><\/a><span class="lineno">   32<\/span>&#160;        T value;<\/div><div class="line"><a name="l00033"><\/a><span class="lineno">   33<\/span>&#160;};<\/div><div class="line"><a name="l00034"><\/a><span class="lineno">   34<\/span>&#160;<\/div><div class="line"><a name="l00035"><\/a><span class="lineno">   35<\/span>&#160;<span class="comment">\/\/ vim:ts=4:sw=4:noet:<\/span><\/div><div class="line"><a name="l00036"><\/a><span class="lineno">   36<\/span>&#160;<span class="preprocessor">#endif<\/span><\/div><div class="ttc" id="class_sensor_html"><div class="ttname"><a href="class_sensor.html">Sensor<\/a><\/div><div class="ttdef"><b>Definition:<\/b> sensor.h:7<\/div><\/div>$/;"	a
+l00001	doc/html/thrust_8h_source.html	/^<div class="fragment"><div class="line"><a name="l00001"><\/a><span class="lineno">    1<\/span>&#160;<span class="preprocessor">#ifndef thrust_h<\/span><\/div><div class="line"><a name="l00002"><\/a><span class="lineno">    2<\/span>&#160;<span class="preprocessor">#define thrust_h<\/span><\/div><div class="line"><a name="l00003"><\/a><span class="lineno">    3<\/span>&#160;<span class="preprocessor">#include &quot;attach.h&quot;<\/span><\/div><div class="line"><a name="l00004"><\/a><span class="lineno">    4<\/span>&#160;<\/div><div class="line"><a name="l00005"><\/a><span class="lineno"><a class="line" href="class_thrust.html">    5<\/a><\/span>&#160;<span class="keyword">class <\/span><a class="code" href="class_thrust.html">Thrust<\/a> : <span class="keyword">public<\/span> <a class="code" href="class_attach.html">Attach<\/a><\/div><div class="line"><a name="l00006"><\/a><span class="lineno">    6<\/span>&#160;{<\/div><div class="line"><a name="l00007"><\/a><span class="lineno">    7<\/span>&#160;    <span class="keyword">public<\/span>:<\/div><div class="line"><a name="l00008"><\/a><span class="lineno">    8<\/span>&#160;        <span class="keyword">using<\/span> <a class="code" href="class_attach.html#a585664ca273016d511a47c2108f39194">Attach::Attach<\/a>;<\/div><div class="line"><a name="l00009"><\/a><span class="lineno">    9<\/span>&#160;        <a class="code" href="class_thrust.html">Thrust<\/a>(<span class="keywordtype">double<\/span> min, <span class="keywordtype">double<\/span> max);<\/div><div class="line"><a name="l00010"><\/a><span class="lineno">   10<\/span>&#160;};<\/div><div class="line"><a name="l00011"><\/a><span class="lineno">   11<\/span>&#160;<\/div><div class="line"><a name="l00012"><\/a><span class="lineno">   12<\/span>&#160;<span class="comment">\/\/ vim:ts=4:sw=4:noet<\/span><\/div><div class="line"><a name="l00013"><\/a><span class="lineno">   13<\/span>&#160;<span class="preprocessor">#endif<\/span><\/div><div class="ttc" id="class_attach_html"><div class="ttname"><a href="class_attach.html">Attach<\/a><\/div><div class="ttdef"><b>Definition:<\/b> attach.h:4<\/div><\/div>$/;"	a
+l00001	doc/html/vect3d_8h_source.html	/^<div class="fragment"><div class="line"><a name="l00001"><\/a><span class="lineno">    1<\/span>&#160;<span class="preprocessor">#ifndef vect3d_h<\/span><\/div><div class="line"><a name="l00002"><\/a><span class="lineno">    2<\/span>&#160;<span class="preprocessor">#define vect3d_h<\/span><\/div><div class="line"><a name="l00003"><\/a><span class="lineno">    3<\/span>&#160;<\/div><div class="line"><a name="l00004"><\/a><span class="lineno"><a class="line" href="structvect3d.html">    4<\/a><\/span>&#160;<span class="keyword">struct <\/span><a class="code" href="structvect3d.html">vect3d<\/a><\/div><div class="line"><a name="l00005"><\/a><span class="lineno">    5<\/span>&#160;{<\/div><div class="line"><a name="l00006"><\/a><span class="lineno">    6<\/span>&#160;    <span class="keywordtype">double<\/span> x;<\/div><div class="line"><a name="l00007"><\/a><span class="lineno">    7<\/span>&#160;    <span class="keywordtype">double<\/span> y;<\/div><div class="line"><a name="l00008"><\/a><span class="lineno">    8<\/span>&#160;    <span class="keywordtype">double<\/span> z;<\/div><div class="line"><a name="l00009"><\/a><span class="lineno">    9<\/span>&#160;<\/div><div class="line"><a name="l00010"><\/a><span class="lineno">   10<\/span>&#160;    <a class="code" href="structvect3d.html">vect3d<\/a>(<span class="keywordtype">double<\/span> x_val, <span class="keywordtype">double<\/span> y_val, <span class="keywordtype">double<\/span> z_val)<\/div><div class="line"><a name="l00011"><\/a><span class="lineno">   11<\/span>&#160;     : x(x_val), y(y_val), z(z_val)<\/div><div class="line"><a name="l00012"><\/a><span class="lineno">   12<\/span>&#160;    { }<\/div><div class="line"><a name="l00013"><\/a><span class="lineno">   13<\/span>&#160;<\/div><div class="line"><a name="l00014"><\/a><span class="lineno">   14<\/span>&#160;    <a class="code" href="structvect3d.html">vect3d<\/a>() : x(0), y(0), z(0)<\/div><div class="line"><a name="l00015"><\/a><span class="lineno">   15<\/span>&#160;    { }<\/div><div class="line"><a name="l00016"><\/a><span class="lineno">   16<\/span>&#160;<\/div><div class="line"><a name="l00017"><\/a><span class="lineno">   17<\/span>&#160;    <a class="code" href="structvect3d.html">vect3d<\/a> operator+=(<span class="keyword">const<\/span> <a class="code" href="structvect3d.html">vect3d<\/a> &amp;a)<\/div><div class="line"><a name="l00018"><\/a><span class="lineno">   18<\/span>&#160;    {<\/div><div class="line"><a name="l00019"><\/a><span class="lineno">   19<\/span>&#160;        this-&gt;x += a.x;<\/div><div class="line"><a name="l00020"><\/a><span class="lineno">   20<\/span>&#160;        this-&gt;y += a.y;<\/div><div class="line"><a name="l00021"><\/a><span class="lineno">   21<\/span>&#160;        this-&gt;z += a.z;<\/div><div class="line"><a name="l00022"><\/a><span class="lineno">   22<\/span>&#160;        <span class="keywordflow">return<\/span> *<span class="keyword">this<\/span>;<\/div><div class="line"><a name="l00023"><\/a><span class="lineno">   23<\/span>&#160;    }<\/div><div class="line"><a name="l00024"><\/a><span class="lineno">   24<\/span>&#160;<\/div><div class="line"><a name="l00025"><\/a><span class="lineno">   25<\/span>&#160;    <a class="code" href="structvect3d.html">vect3d<\/a> operator*(<span class="keyword">const<\/span> <span class="keywordtype">double<\/span> &amp;a)<\/div><div class="line"><a name="l00026"><\/a><span class="lineno">   26<\/span>&#160;    {<\/div><div class="line"><a name="l00027"><\/a><span class="lineno">   27<\/span>&#160;        <a class="code" href="structvect3d.html">vect3d<\/a>* result = <span class="keyword">new<\/span> <a class="code" href="structvect3d.html">vect3d<\/a>(this-&gt;x * a, this-&gt;y * a, this-&gt;z * a);<\/div><div class="line"><a name="l00028"><\/a><span class="lineno">   28<\/span>&#160;        <span class="keywordflow">return<\/span> *result;<\/div><div class="line"><a name="l00029"><\/a><span class="lineno">   29<\/span>&#160;    }<\/div><div class="line"><a name="l00030"><\/a><span class="lineno">   30<\/span>&#160;};<\/div><div class="line"><a name="l00031"><\/a><span class="lineno">   31<\/span>&#160;<\/div><div class="line"><a name="l00032"><\/a><span class="lineno">   32<\/span>&#160;<span class="comment">\/\/ vim:ts=4:sw=4:noet<\/span><\/div><div class="line"><a name="l00033"><\/a><span class="lineno">   33<\/span>&#160;<span class="preprocessor">#endif<\/span><\/div><div class="ttc" id="structvect3d_html"><div class="ttname"><a href="structvect3d.html">vect3d<\/a><\/div><div class="ttdef"><b>Definition:<\/b> vect3d.h:4<\/div><\/div>$/;"	a
+l00001	doc/html/world_8h_source.html	/^<div class="fragment"><div class="line"><a name="l00001"><\/a><span class="lineno">    1<\/span>&#160;<span class="preprocessor">#ifndef world_h<\/span><\/div><div class="line"><a name="l00002"><\/a><span class="lineno">    2<\/span>&#160;<span class="preprocessor">#define world_h<\/span><\/div><div class="line"><a name="l00003"><\/a><span class="lineno">    3<\/span>&#160;<span class="preprocessor">#include &quot;world\/entity.h&quot;<\/span><\/div><div class="line"><a name="l00004"><\/a><span class="lineno">    4<\/span>&#160;<span class="preprocessor">#include &quot;misc\/vect3d.h&quot;<\/span><\/div><div class="line"><a name="l00005"><\/a><span class="lineno">    5<\/span>&#160;<\/div><div class="line"><a name="l00006"><\/a><span class="lineno"><a class="line" href="class_world.html">    6<\/a><\/span>&#160;<span class="keyword">class <\/span><a class="code" href="class_world.html">World<\/a><\/div><div class="line"><a name="l00007"><\/a><span class="lineno">    7<\/span>&#160;{<\/div><div class="line"><a name="l00008"><\/a><span class="lineno">    8<\/span>&#160;    <span class="keyword">public<\/span>:<\/div><div class="line"><a name="l00016"><\/a><span class="lineno">   16<\/span>&#160;        <a class="code" href="class_world.html#afc30dd0ea9e366e7d66e94c86e78e425">World<\/a>(<span class="keywordtype">int<\/span> size_x, <span class="keywordtype">int<\/span> size_y, <span class="keywordtype">int<\/span> size_z, <span class="keywordtype">double<\/span> gravity);<\/div><div class="line"><a name="l00017"><\/a><span class="lineno">   17<\/span>&#160;<\/div><div class="line"><a name="l00026"><\/a><span class="lineno">   26<\/span>&#160;        <span class="keywordtype">int<\/span> <a class="code" href="class_world.html#a1638619ba0e720ecda36fdb4ead2e339">spawn_entity<\/a>(<a class="code" href="class_entity.html">Entity<\/a>* e, <span class="keywordtype">int<\/span> x, <span class="keywordtype">int<\/span> y, <span class="keywordtype">int<\/span> z);<\/div><div class="line"><a name="l00027"><\/a><span class="lineno">   27<\/span>&#160;<\/div><div class="line"><a name="l00032"><\/a><span class="lineno">   32<\/span>&#160;        <span class="keywordtype">void<\/span> <a class="code" href="class_world.html#aaa29b0119a54f5fb2c1dc3756c9849d0">tick<\/a>(<span class="keywordtype">double<\/span> time);<\/div><div class="line"><a name="l00033"><\/a><span class="lineno">   33<\/span>&#160;<\/div><div class="line"><a name="l00034"><\/a><span class="lineno">   34<\/span>&#160;    <span class="keyword">private<\/span>:<\/div><div class="line"><a name="l00035"><\/a><span class="lineno">   35<\/span>&#160;        <span class="keyword">const<\/span> <span class="keywordtype">int<\/span> _size_x;<\/div><div class="line"><a name="l00036"><\/a><span class="lineno">   36<\/span>&#160;        <span class="keyword">const<\/span> <span class="keywordtype">int<\/span> _size_y;<\/div><div class="line"><a name="l00037"><\/a><span class="lineno">   37<\/span>&#160;        <span class="keyword">const<\/span> <span class="keywordtype">int<\/span> _size_z;<\/div><div class="line"><a name="l00038"><\/a><span class="lineno">   38<\/span>&#160;        <a class="code" href="structvect3d.html">vect3d<\/a>* _gravity;<\/div><div class="line"><a name="l00039"><\/a><span class="lineno">   39<\/span>&#160;        <a class="code" href="class_entity.html">Entity<\/a>* entity; <span class="comment">\/\/ TODO: vector\/array<\/span><\/div><div class="line"><a name="l00040"><\/a><span class="lineno">   40<\/span>&#160;};<\/div><div class="line"><a name="l00041"><\/a><span class="lineno">   41<\/span>&#160;<\/div><div class="line"><a name="l00042"><\/a><span class="lineno">   42<\/span>&#160;<span class="comment">\/\/ vim:ts=4:sw=4:noet:<\/span><\/div><div class="line"><a name="l00043"><\/a><span class="lineno">   43<\/span>&#160;<span class="preprocessor">#endif<\/span><\/div><div class="ttc" id="class_world_html_a1638619ba0e720ecda36fdb4ead2e339"><div class="ttname"><a href="class_world.html#a1638619ba0e720ecda36fdb4ead2e339">World::spawn_entity<\/a><\/div><div class="ttdeci">int spawn_entity(Entity *e, int x, int y, int z)<\/div><div class="ttdef"><b>Definition:<\/b> world.cpp:14<\/div><\/div>$/;"	a
+letter_a	doc/html/classes.html	/^<tr><td rowspan="2" valign="bottom"><a name="letter_a"><\/a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;a&#160;&#160;<\/div><\/td><\/tr><\/table>$/;"	a
+letter_d	doc/html/classes.html	/^<tr><td rowspan="2" valign="bottom"><a name="letter_d"><\/a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;d&#160;&#160;<\/div><\/td><\/tr><\/table>$/;"	a
+letter_e	doc/html/classes.html	/^<\/td><td rowspan="2" valign="bottom"><a name="letter_e"><\/a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;e&#160;&#160;<\/div><\/td><\/tr><\/table>$/;"	a
+letter_r	doc/html/classes.html	/^<\/td><td rowspan="2" valign="bottom"><a name="letter_r"><\/a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;r&#160;&#160;<\/div><\/td><\/tr><\/table>$/;"	a
+letter_s	doc/html/classes.html	/^<\/td><td rowspan="2" valign="bottom"><a name="letter_s"><\/a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;s&#160;&#160;<\/div><\/td><\/tr><\/table>$/;"	a
+letter_t	doc/html/classes.html	/^<\/td><td rowspan="2" valign="bottom"><a name="letter_t"><\/a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;t&#160;&#160;<\/div><\/td><\/tr><\/table>$/;"	a
+letter_v	doc/html/classes.html	/^<\/td><td rowspan="2" valign="bottom"><a name="letter_v"><\/a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;v&#160;&#160;<\/div><\/td><\/tr><\/table>$/;"	a
+letter_w	doc/html/classes.html	/^<\/td><td rowspan="2" valign="bottom"><a name="letter_w"><\/a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;w&#160;&#160;<\/div><\/td><\/tr><\/table>$/;"	a
+localStorageSupported	doc/html/navtree.js	/^function localStorageSupported()$/;"	f
 main	test.cpp	/^int main()$/;"	f
+makeTree	doc/html/menu.js	/^  function makeTree(data,relPath) {$/;"	f	function:initMenu
 mass	attach/attach.h	/^		const double mass;$/;"	m	class:Attach
 mass	drone.h	/^		const double mass;$/;"	m	class:Drone
 max	attach/attach.h	/^		const double max;$/;"	m	class:Attach
 min	attach/attach.h	/^		const double min;$/;"	m	class:Attach
 move	world/entity.h	/^		void move(const vect3d a, double time) \/\/ physical movement$/;"	f	class:Entity
-normalize	misc/vect3d.h	/^	vect3d normalize()$/;"	f	struct:vect3d
+movement	world/entity.h	/^		vect3d* movement;$/;"	m	class:Entity
+navTo	doc/html/navtree.js	/^function navTo(o,root,hash,relpath)$/;"	f
+newNode	doc/html/navtree.js	/^function newNode(o, po, text, link, childrenData, lastNode)$/;"	f
+node.expandToggle.onclick	doc/html/navtree.js	/^    node.expandToggle.onclick = function() {$/;"	f
+node.getChildrenUL	doc/html/navtree.js	/^  node.getChildrenUL = function() {$/;"	f
+o.node.getChildrenUL	doc/html/navtree.js	/^  o.node.getChildrenUL = function() { return o.node.childrenUL; };$/;"	f
 operator *	misc/vect3d.h	/^	vect3d operator*(const double &a)$/;"	f	struct:vect3d
 operator +=	misc/vect3d.h	/^	vect3d operator+=(const vect3d &a)$/;"	f	struct:vect3d
+pathName	doc/html/navtree.js	/^function pathName()$/;"	f
 pitch	drone.h	/^		double pitch;$/;"	m	class:Drone
+position	world/entity.h	/^		vect3d* position;$/;"	m	class:Entity
+print_pos	test.cpp	/^void print_pos(Drone* d)$/;"	f
+pro-attribs	doc/html/class_sensor.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"><\/a>$/;"	a
+pub-attribs	doc/html/structvect3d.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"><\/a>$/;"	a
+pub-methods	doc/html/class_attach.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"><\/a>$/;"	a
+pub-methods	doc/html/class_drone.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"><\/a>$/;"	a
+pub-methods	doc/html/class_entity.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"><\/a>$/;"	a
+pub-methods	doc/html/class_rudder.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"><\/a>$/;"	a
+pub-methods	doc/html/class_sensor.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"><\/a>$/;"	a
+pub-methods	doc/html/class_thrust.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"><\/a>$/;"	a
+pub-methods	doc/html/class_world.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"><\/a>$/;"	a
+pub-methods	doc/html/structvect3d.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"><\/a>$/;"	a
 r_pitch	drone.h	/^		Attach* const r_pitch;$/;"	m	class:Drone
+readCookie	doc/html/resize.js	/^  function readCookie(cookie)$/;"	f	function:initResizable
+removeToInsertLater	doc/html/navtree.js	/^function removeToInsertLater(element) {$/;"	f
+resizeHeight	doc/html/resize.js	/^  function resizeHeight()$/;"	f	function:initResizable
+resizeWidth	doc/html/resize.js	/^  function resizeWidth()$/;"	f	function:initResizable
+restoreWidth	doc/html/resize.js	/^  function restoreWidth(navWidth)$/;"	f	function:initResizable
 rl	ide.vim	/^vnoremap rl :call CommentOut(input("Remove Leading Symbol: "))$/;"	m
 roll	drone.h	/^		double roll;$/;"	m	class:Drone
 rudder_h	attach/rudder.h	2;"	d
 s:cpo_save	ide.vim	/^let s:cpo_save=&cpo$/;"	v
 s:l	ide.vim	/^let s:l = 1 - ((0 * winheight(0) + 13) \/ 27)$/;"	v
-s:l	ide.vim	/^let s:l = 1 - ((0 * winheight(0) + 8) \/ 16)$/;"	v
-s:l	ide.vim	/^let s:l = 12 - ((11 * winheight(0) + 13) \/ 27)$/;"	v
-s:l	ide.vim	/^let s:l = 13 - ((12 * winheight(0) + 13) \/ 27)$/;"	v
-s:l	ide.vim	/^let s:l = 20 - ((19 * winheight(0) + 14) \/ 28)$/;"	v
-s:l	ide.vim	/^let s:l = 24 - ((13 * winheight(0) + 13) \/ 27)$/;"	v
+s:l	ide.vim	/^let s:l = 10 - ((3 * winheight(0) + 13) \/ 27)$/;"	v
+s:l	ide.vim	/^let s:l = 11 - ((10 * winheight(0) + 13) \/ 27)$/;"	v
+s:l	ide.vim	/^let s:l = 29 - ((21 * winheight(0) + 13) \/ 27)$/;"	v
+s:l	ide.vim	/^let s:l = 30 - ((19 * winheight(0) + 13) \/ 27)$/;"	v
+s:l	ide.vim	/^let s:l = 34 - ((18 * winheight(0) + 14) \/ 28)$/;"	v
+s:l	ide.vim	/^let s:l = 34 - ((21 * winheight(0) + 14) \/ 28)$/;"	v
 s:l	ide.vim	/^let s:l = 4 - ((3 * winheight(0) + 13) \/ 27)$/;"	v
-s:l	ide.vim	/^let s:l = 6 - ((5 * winheight(0) + 13) \/ 27)$/;"	v
+s:l	ide.vim	/^let s:l = 68 - ((13 * winheight(0) + 13) \/ 27)$/;"	v
 s:l	ide.vim	/^let s:l = 7 - ((6 * winheight(0) + 13) \/ 27)$/;"	v
-s:l	ide.vim	/^let s:l = 8 - ((7 * winheight(0) + 13) \/ 27)$/;"	v
+s:l	ide.vim	/^let s:l = 7 - ((6 * winheight(0) + 14) \/ 28)$/;"	v
 s:l	ide.vim	/^let s:l = 9 - ((8 * winheight(0) + 13) \/ 27)$/;"	v
 s:so_save	ide.vim	/^let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0$/;"	v
 s:sx	ide.vim	/^let s:sx = expand("<sfile>:p:r")."x.vim"$/;"	v
 s:wipebuf	ide.vim	/^  let s:wipebuf = bufnr('%')$/;"	v
+script.onreadystatechange	doc/html/navtree.js	/^    script.onreadystatechange = function() {$/;"	f
+searchData	doc/html/search/all_0.js	/^var searchData=$/;"	v
+searchData	doc/html/search/all_1.js	/^var searchData=$/;"	v
+searchData	doc/html/search/all_2.js	/^var searchData=$/;"	v
+searchData	doc/html/search/all_3.js	/^var searchData=$/;"	v
+searchData	doc/html/search/all_4.js	/^var searchData=$/;"	v
+searchData	doc/html/search/all_5.js	/^var searchData=$/;"	v
+searchData	doc/html/search/all_6.js	/^var searchData=$/;"	v
+searchData	doc/html/search/all_7.js	/^var searchData=$/;"	v
+searchData	doc/html/search/all_8.js	/^var searchData=$/;"	v
+searchData	doc/html/search/all_9.js	/^var searchData=$/;"	v
+searchData	doc/html/search/all_a.js	/^var searchData=$/;"	v
+searchData	doc/html/search/classes_0.js	/^var searchData=$/;"	v
+searchData	doc/html/search/classes_1.js	/^var searchData=$/;"	v
+searchData	doc/html/search/classes_2.js	/^var searchData=$/;"	v
+searchData	doc/html/search/classes_3.js	/^var searchData=$/;"	v
+searchData	doc/html/search/classes_4.js	/^var searchData=$/;"	v
+searchData	doc/html/search/classes_5.js	/^var searchData=$/;"	v
+searchData	doc/html/search/classes_6.js	/^var searchData=$/;"	v
+searchData	doc/html/search/classes_7.js	/^var searchData=$/;"	v
+searchData	doc/html/search/functions_0.js	/^var searchData=$/;"	v
+searchData	doc/html/search/functions_1.js	/^var searchData=$/;"	v
+searchData	doc/html/search/functions_2.js	/^var searchData=$/;"	v
+searchData	doc/html/search/functions_3.js	/^var searchData=$/;"	v
+searchData	doc/html/search/functions_4.js	/^var searchData=$/;"	v
+searchData	doc/html/search/functions_5.js	/^var searchData=$/;"	v
+searchData	doc/html/search/functions_6.js	/^var searchData=$/;"	v
+searchData	doc/html/search/functions_7.js	/^var searchData=$/;"	v
+selectAndHighlight	doc/html/navtree.js	/^function selectAndHighlight(hash,n)$/;"	f
 sensor_h	sensors/sensor.h	2;"	d
+setClassAttr	doc/html/search/search.js	/^function setClassAttr(elem,attr)$/;"	f
+setKeyActions	doc/html/search/search.js	/^function setKeyActions(elem,action)$/;"	f
 set_world	sensors/sensor.cpp	/^void Sensor<T>::set_world(World* world)$/;"	f	class:Sensor
 setup_world	test.cpp	/^void setup_world(World* w)$/;"	f
+showNode	doc/html/navtree.js	/^function showNode(o, node, index, hash)$/;"	f
+showRoot	doc/html/navtree.js	/^function showRoot()$/;"	f
+showSyncOff	doc/html/navtree.js	/^function showSyncOff(n,relpath)$/;"	f
+showSyncOn	doc/html/navtree.js	/^function showSyncOn(n,relpath)$/;"	f
 spawn_drone	test.cpp	/^void spawn_drone(Drone* d, World* w)$/;"	f
 spawn_entity	world.cpp	/^int World::spawn_entity(Entity* e, int x, int y, int z)$/;"	f	class:World
+storeLink	doc/html/navtree.js	/^function storeLink(link)$/;"	f
+stripPath	doc/html/navtree.js	/^function stripPath(uri)$/;"	f
+stripPath2	doc/html/navtree.js	/^function stripPath2(uri)$/;"	f
+structvect3d	doc/html/structvect3d.js	/^var structvect3d =$/;"	v
 thrust_forward	drone.h	/^		Attach* const thrust_forward;$/;"	m	class:Drone
 thrust_h	attach/thrust.h	2;"	d
 thrust_left	drone.h	/^		Attach* const thrust_left;$/;"	m	class:Drone
 thrust_right	drone.h	/^		Attach* const thrust_right;$/;"	m	class:Drone
 tick	world.cpp	/^void World::tick(double time)$/;"	f	class:World
+toggleFolder	doc/html/dynsections.js	/^function toggleFolder(id)$/;"	f
+toggleInherit	doc/html/dynsections.js	/^function toggleInherit(id)$/;"	f
+toggleLevel	doc/html/dynsections.js	/^function toggleLevel(level)$/;"	f
+toggleSyncButton	doc/html/navtree.js	/^function toggleSyncButton(relpath)$/;"	f
+toggleVisibility	doc/html/dynsections.js	/^function toggleVisibility(linkObj)$/;"	f
+updateStripes	doc/html/dynsections.js	/^function updateStripes()$/;"	f
 value	sensors/sensor.h	/^		T value;$/;"	m	class:Sensor
-vect	world/entity.h	/^		vect3d* vect;$/;"	m	class:Entity
-vect3d	misc/vect3d.h	/^	vect3d() : w(0), x(0), y(0), z(0)$/;"	f	struct:vect3d
-vect3d	misc/vect3d.h	/^	vect3d(double w_val, double x_val, double y_val, double z_val)$/;"	f	struct:vect3d
+vect3d	misc/vect3d.h	/^	vect3d() : x(0), y(0), z(0)$/;"	f	struct:vect3d
+vect3d	misc/vect3d.h	/^	vect3d(double x_val, double y_val, double z_val)$/;"	f	struct:vect3d
 vect3d	misc/vect3d.h	/^struct vect3d$/;"	s
 vect3d_h	misc/vect3d.h	2;"	d
-w	misc/vect3d.h	/^	double w; \/\/ speed$/;"	m	struct:vect3d
 world_h	world.h	2;"	d
+writeCookie	doc/html/resize.js	/^  function writeCookie(cookie, val, expiration)$/;"	f	function:initResizable
 x	misc/vect3d.h	/^	double x;$/;"	m	struct:vect3d
 y	misc/vect3d.h	/^	double y;$/;"	m	struct:vect3d
 yaw	drone.h	/^		double yaw;$/;"	m	class:Drone
