@@ -1,7 +1,7 @@
 #ifndef sensor_h
 #define sensor_h
 #include "../attach/attach.h"
-#include "../world.h"
+#include "../world/world.h"
 
 template<typename T>
 class Sensor : public Attach

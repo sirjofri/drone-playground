@@ -1,7 +1,7 @@
 #ifndef world_h
 #define world_h
-#include "world/entity.h"
-#include "misc/vect3d.h"
+#include "entity.h"
+#include "../misc/vect3d.h"
 
 class World
 {

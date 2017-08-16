@@ -1,6 +1,7 @@
 var searchData=
 [
   ['get_5fcurrent',['get_current',['../class_attach.html#ad0c704d8f5d419e4d92e4aa8f07d70ad',1,'Attach']]],
+  ['get_5fdirection',['get_direction',['../class_entity.html#a50f1d7968a817e103ec3e62df7f04245',1,'Entity']]],
   ['get_5fmass',['get_mass',['../class_attach.html#ab3ed30484c8ee709bb9acb089254782f',1,'Attach::get_mass()'],['../class_drone.html#a4a246b8cff92232ae78d32b77be732d9',1,'Drone::get_mass()']]],
   ['get_5fmax',['get_max',['../class_attach.html#abe687a1f54ffd524e97d77adf85e165c',1,'Attach']]],
   ['get_5fmin',['get_min',['../class_attach.html#a2370fac8d9e9584280538c7963d1d1ac',1,'Attach']]],

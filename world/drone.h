@@ -1,11 +1,11 @@
 #ifndef drone_h
 #define drone_h
-#include "world/entity.h"
-#include "attach/attach.h"
-#include "attach/thrust.h"
-#include "attach/rudder.h"
-#include "sensors/sensor.cpp"
-#include "misc/vect3d.h"
+#include "entity.h"
+#include "../attach/attach.h"
+#include "../attach/thrust.h"
+#include "../attach/rudder.h"
+#include "../sensors/sensor.cpp"
+#include "../misc/vect3d.h"
 
 class Drone : public Entity
 {

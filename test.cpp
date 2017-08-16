@@ -1,6 +1,8 @@
 #include <iostream>
-#include "world.h"
-#include "drone.h"
+#include <time.h>
+#include "world/world.h"
+#include "world/drone.h"
+#include <sys/socket.h>
 
 void print_pos(Drone* d)
 {
@@ -29,12 +31,26 @@ int main()
 	setup_world(w);
 	spawn_drone(d, w);
 
+	int number_of_ticks = 20;
+	clock_t start, round;
+	start = clock();
+	while(number_of_ticks > 0)
+	{
+		round = clock();
+		clock_t diff = round - start;
+		w->tick(double(diff)/CLOCKS_PER_SEC);
+		print_pos(d);
+		number_of_ticks--;
+	}
+
+	/*
 	w->tick(0.1);
 	print_pos(d);
 	w->tick(0.1);
 	print_pos(d);
 	w->tick(0.1);
 	print_pos(d);
+	*/
 
 	/*
 	// parameters: mass, help_max, main_max, rudder_min, rudder_max

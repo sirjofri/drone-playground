@@ -11,6 +11,12 @@ class Entity
 		 **/
 		const vect3d* get_position() { return position; };
 
+		/** get the direction of the entity
+		 *
+		 * @return direction of the entity
+		 **/
+		const vect3d* get_direction() { return movement; }
+
 		/** move the entity around
 		 *
 		 * @param a direction, normalized with time
@@ -21,6 +27,7 @@ class Entity
 			if( !is_static )
 			{
 				vect3d own_movement = *movement * time;
+				own_movement += a;
 				*position += own_movement;
 				*movement += a;
 			}
