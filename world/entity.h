@@ -2,6 +2,8 @@
 #define entity_h
 #include "../misc/vect3d.h"
 
+/** a general entity. spawnable and it has a position
+ **/
 class Entity
 {
 	public:

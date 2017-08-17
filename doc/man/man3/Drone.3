@@ -1,4 +1,4 @@
-.TH "Drone" 3 "Wed Aug 16 2017" "Drone" \" -*- nroff -*-
+.TH "Drone" 3 "Thu Aug 17 2017" "Drone" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -6,6 +6,8 @@ Drone
 .SH SYNOPSIS
 .br
 .PP
+.PP
+\fC#include <drone\&.h>\fP
 .PP
 Inherits \fBEntity\fP\&.
 .SS "Public Member Functions"
@@ -42,6 +44,9 @@ Inherits \fBEntity\fP\&.
 .RI "\fBSensor\fP< double > *const \fBget_s_altitude\fP ()"
 .br
 .in -1c
+.SH "Detailed Description"
+.PP 
+a general drone (which is very specific at the moment) 
 .SH "Constructor & Destructor Documentation"
 .PP 
 .SS "Drone::Drone (double _mass, double thrust_lr, double thrust_forward, double rudder_min, double rudder_max)"
@@ -90,6 +95,8 @@ roll
 .RE
 .PP
 
+.SS "\fBAttach\fP *const Drone::get_rudder_pitch ()"
+get pitch rudder 
 .SS "\fBSensor\fP< double > *const Drone::get_s_altitude ()"
 get sensor object
 .PP
@@ -99,6 +106,12 @@ sensor component
 .RE
 .PP
 
+.SS "\fBAttach\fP *const Drone::get_thrust_f ()"
+get forward/main thrust 
+.SS "\fBAttach\fP *const Drone::get_thrust_l ()"
+get left thrust 
+.SS "\fBAttach\fP *const Drone::get_thrust_r ()"
+get right thrust 
 .SS "double Drone::get_yaw ()"
 get yaw
 .PP

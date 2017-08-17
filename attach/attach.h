@@ -1,6 +1,8 @@
 #ifndef attach_h
 #define attach_h
 
+/** general attachment. it attaches to the drone surface.
+ **/
 class Attach
 {
 	public:

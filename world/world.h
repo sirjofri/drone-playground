@@ -3,6 +3,9 @@
 #include "entity.h"
 #include "../misc/vect3d.h"
 
+/** The world (or environment...
+ *
+ **/
 class World
 {
 	public:

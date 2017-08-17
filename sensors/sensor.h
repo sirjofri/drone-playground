@@ -3,6 +3,8 @@
 #include "../attach/attach.h"
 #include "../world/world.h"
 
+/** basic sensor class. it connects to the world to get some values.
+ **/
 template<typename T>
 class Sensor : public Attach
 {

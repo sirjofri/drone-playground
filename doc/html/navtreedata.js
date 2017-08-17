@@ -1,6 +1,7 @@
 var NAVTREE =
 [
   [ "Drone", "index.html", [
+    [ "drone playground", "md__r_e_a_d_m_e.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],

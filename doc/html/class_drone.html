@@ -87,6 +87,8 @@ $(document).ready(function(){initNavTree('class_drone.html','');});
 <div class="title">Drone Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="drone_8h_source.html">drone.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Drone:</div>
 <div class="dyncontent">
@@ -107,17 +109,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a53ba5f1852569c7f31e46e06b3fad71c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e876482316079964d233fc21f39ba51"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drone.html#a0e876482316079964d233fc21f39ba51">get_roll</a> ()</td></tr>
 <tr class="separator:a0e876482316079964d233fc21f39ba51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79d8de4ce2a8ea6414d8aa4314aad29d"><td class="memItemLeft" align="right" valign="top"><a id="a79d8de4ce2a8ea6414d8aa4314aad29d"></a>
-<a class="el" href="class_attach.html">Attach</a> *const&#160;</td><td class="memItemRight" valign="bottom"><b>get_thrust_r</b> ()</td></tr>
+<tr class="memitem:a79d8de4ce2a8ea6414d8aa4314aad29d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_attach.html">Attach</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drone.html#a79d8de4ce2a8ea6414d8aa4314aad29d">get_thrust_r</a> ()</td></tr>
 <tr class="separator:a79d8de4ce2a8ea6414d8aa4314aad29d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab076837bd39580c834548629c8e1f485"><td class="memItemLeft" align="right" valign="top"><a id="ab076837bd39580c834548629c8e1f485"></a>
-<a class="el" href="class_attach.html">Attach</a> *const&#160;</td><td class="memItemRight" valign="bottom"><b>get_thrust_l</b> ()</td></tr>
+<tr class="memitem:ab076837bd39580c834548629c8e1f485"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_attach.html">Attach</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drone.html#ab076837bd39580c834548629c8e1f485">get_thrust_l</a> ()</td></tr>
 <tr class="separator:ab076837bd39580c834548629c8e1f485"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a086635419d2ec4966438db8ca632162b"><td class="memItemLeft" align="right" valign="top"><a id="a086635419d2ec4966438db8ca632162b"></a>
-<a class="el" href="class_attach.html">Attach</a> *const&#160;</td><td class="memItemRight" valign="bottom"><b>get_thrust_f</b> ()</td></tr>
+<tr class="memitem:a086635419d2ec4966438db8ca632162b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_attach.html">Attach</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drone.html#a086635419d2ec4966438db8ca632162b">get_thrust_f</a> ()</td></tr>
 <tr class="separator:a086635419d2ec4966438db8ca632162b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70ba0180b675e7097433d0c5d162259f"><td class="memItemLeft" align="right" valign="top"><a id="a70ba0180b675e7097433d0c5d162259f"></a>
-<a class="el" href="class_attach.html">Attach</a> *const&#160;</td><td class="memItemRight" valign="bottom"><b>get_rudder_pitch</b> ()</td></tr>
+<tr class="memitem:a70ba0180b675e7097433d0c5d162259f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_attach.html">Attach</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drone.html#a70ba0180b675e7097433d0c5d162259f">get_rudder_pitch</a> ()</td></tr>
 <tr class="separator:a70ba0180b675e7097433d0c5d162259f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a246b8cff92232ae78d32b77be732d9"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drone.html#a4a246b8cff92232ae78d32b77be732d9">get_mass</a> ()</td></tr>
 <tr class="separator:a4a246b8cff92232ae78d32b77be732d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,7 +131,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acb7674bec7bfa9c2ac22f069239c761f inherit pub_methods_class_entity"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_entity.html#acb7674bec7bfa9c2ac22f069239c761f">initialize</a> (<a class="el" href="structvect3d.html">vect3d</a> *location, <a class="el" href="structvect3d.html">vect3d</a> *direction)</td></tr>
 <tr class="separator:acb7674bec7bfa9c2ac22f069239c761f inherit pub_methods_class_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>a general drone (which is very specific at the moment) </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af7c1edfd1707e66e636237d85fda644e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af7c1edfd1707e66e636237d85fda644e">&#9670;&nbsp;</a></span>Drone()</h2>
 
@@ -249,6 +249,24 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a70ba0180b675e7097433d0c5d162259f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70ba0180b675e7097433d0c5d162259f">&#9670;&nbsp;</a></span>get_rudder_pitch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_attach.html">Attach</a> *const Drone::get_rudder_pitch </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>get pitch rudder </p>
+
+</div>
+</div>
 <a id="a433dd741c6dffc6930562073f02953a9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a433dd741c6dffc6930562073f02953a9">&#9670;&nbsp;</a></span>get_s_altitude()</h2>
 
@@ -265,6 +283,60 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>get sensor object</p>
 <dl class="section return"><dt>Returns</dt><dd>sensor component </dd></dl>
+
+</div>
+</div>
+<a id="a086635419d2ec4966438db8ca632162b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a086635419d2ec4966438db8ca632162b">&#9670;&nbsp;</a></span>get_thrust_f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_attach.html">Attach</a> *const Drone::get_thrust_f </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>get forward/main thrust </p>
+
+</div>
+</div>
+<a id="ab076837bd39580c834548629c8e1f485"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab076837bd39580c834548629c8e1f485">&#9670;&nbsp;</a></span>get_thrust_l()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_attach.html">Attach</a> *const Drone::get_thrust_l </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>get left thrust </p>
+
+</div>
+</div>
+<a id="a79d8de4ce2a8ea6414d8aa4314aad29d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79d8de4ce2a8ea6414d8aa4314aad29d">&#9670;&nbsp;</a></span>get_thrust_r()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_attach.html">Attach</a> *const Drone::get_thrust_r </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>get right thrust </p>
 
 </div>
 </div>

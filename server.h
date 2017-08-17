@@ -1,6 +1,18 @@
 #ifndef server_h
 #define server_h
+#include <iostream>
+#include <time.h>
+#include "world/world.h"
+#include "world/drone.h"
+#include <sys/socket.h>
+#include <thread>
+#include <string>
+#include "misc/commands.h"
 
+/** print the position of the drone
+ *
+ * @param d drone
+ **/
 void print_pos(Drone* d)
 {
 	std::cout<<" - Position: "
@@ -10,6 +22,11 @@ void print_pos(Drone* d)
 	         << std::endl;
 }
 
+/** sets up the world, spawns the drone
+ *
+ * @param w world
+ * @param d drone
+ **/
 void setup_world(World* w, Drone* d)
 {
 	w->spawn_entity(d, 5, 5, 5);

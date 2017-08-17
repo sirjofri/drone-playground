@@ -7,6 +7,8 @@
 #include "../sensors/sensor.cpp"
 #include "../misc/vect3d.h"
 
+/** a general drone (which is very specific at the moment)
+ **/
 class Drone : public Entity
 {
 	public:
@@ -43,9 +45,13 @@ class Drone : public Entity
 		double get_roll();
 
 		// getter for attachments
+		/** get right thrust */
 		Attach* const get_thrust_r();
+		/** get left thrust */
 		Attach* const get_thrust_l();
+		/** get forward/main thrust */
 		Attach* const get_thrust_f();
+		/** get pitch rudder */
 		Attach* const get_rudder_pitch();
 
 		/** get mass of the whole drone

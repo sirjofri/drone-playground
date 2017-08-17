@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['world',['World',['../class_world.html',1,'World'],['../class_world.html#afc30dd0ea9e366e7d66e94c86e78e425',1,'World::World()']]]
+  ['vect3d',['vect3d',['../structvect3d.html',1,'vect3d'],['../structvect3d.html#a75bc9a5ac47d5a96c21f781cfa61219c',1,'vect3d::vect3d(double x_val, double y_val, double z_val)'],['../structvect3d.html#a0c08e2649853b70c221a66e7bba537c6',1,'vect3d::vect3d()']]]
 ];

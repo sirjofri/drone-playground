@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['sensor',['Sensor',['../class_sensor.html#ae4d6480274fcb16945737e1c8312248d',1,'Sensor']]],
-  ['set_5fworld',['set_world',['../class_sensor.html#a4a5498046b237f7e7c1e5d63a7993c3d',1,'Sensor']]],
-  ['spawn_5fentity',['spawn_entity',['../class_world.html#a1638619ba0e720ecda36fdb4ead2e339',1,'World']]]
+  ['operator_2a',['operator*',['../structvect3d.html#a11e842ac9ec29a7c07da4a2eac4ede51',1,'vect3d']]],
+  ['operator_2b_3d',['operator+=',['../structvect3d.html#acbc35f86e9251d1393a563e8f929ad95',1,'vect3d']]]
 ];
