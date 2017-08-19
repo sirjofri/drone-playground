@@ -1,4 +1,4 @@
-.TH "Sensor< T >" 3 "Thu Aug 17 2017" "Drone" \" -*- nroff -*-
+.TH "Sensor< T >" 3 "Sat Aug 19 2017" "Drone" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -71,6 +71,12 @@ set the world as data source
 .RE
 .PP
 
+.SH "Member Data Documentation"
+.PP 
+.SS "template<typename T> \fBWorld\fP* \fBSensor\fP< T >::_world\fC [protected]\fP"
+pointer to the world\&. This is used to get some sensor- specific information\&. 
+.SS "template<typename T> T \fBSensor\fP< T >::value\fC [protected]\fP"
+the value of the sensor\&. can be used to store the wanted value\&. You can maybe fake some delay\&. 
 
 .SH "Author"
 .PP 

@@ -1,11 +1,11 @@
 #ifndef drone_h
 #define drone_h
 #include "entity.h"
-#include "../attach/attach.h"
-#include "../attach/thrust.h"
-#include "../attach/rudder.h"
-#include "../sensors/sensor.cpp"
-#include "../misc/vect3d.h"
+#include "attach.h"
+#include "thrust.h"
+#include "rudder.h"
+#include "sensor.h"
+#include "vect3d.h"
 
 /** a general drone (which is very specific at the moment)
  **/

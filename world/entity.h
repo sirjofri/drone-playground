@@ -1,6 +1,6 @@
 #ifndef entity_h
 #define entity_h
-#include "../misc/vect3d.h"
+#include "vect3d.h"
 
 /** a general entity. spawnable and it has a position
  **/

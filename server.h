@@ -2,12 +2,12 @@
 #define server_h
 #include <iostream>
 #include <time.h>
-#include "world/world.h"
-#include "world/drone.h"
+#include "world.h"
+#include "drone.h"
 #include <sys/socket.h>
 #include <thread>
 #include <string>
-#include "misc/commands.h"
+#include "commands.h"
 
 /** print the position of the drone
  *

@@ -1,3 +1,5 @@
+#ifndef SENSOR_CPP
+#define SENSOR_CPP
 #include "sensor.h"
 
 template<typename T>
@@ -20,3 +22,4 @@ T Sensor<T>::get_value()
 }
 
 // vim:ts=4:sw=4:noet:
+#endif

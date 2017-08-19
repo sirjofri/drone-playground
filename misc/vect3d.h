@@ -5,8 +5,11 @@
  **/
 struct vect3d
 {
+	/** x value */
 	double x;
+	/** y value */
 	double y;
+	/** z value */
 	double z;
 
 	/** create a vector with values

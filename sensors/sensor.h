@@ -1,7 +1,7 @@
 #ifndef sensor_h
 #define sensor_h
-#include "../attach/attach.h"
-#include "../world/world.h"
+#include "attach.h"
+#include "world.h"
 
 /** basic sensor class. it connects to the world to get some values.
  **/
@@ -30,9 +30,17 @@ class Sensor : public Attach
 		void set_world(World* world);
 
 	protected:
+		/** pointer to the world. This is used to get some sensor-
+		 * specific information.
+		 **/
 		World* _world;
+		/** the value of the sensor. can be used to store the wanted
+		 * value. You can maybe fake some delay.
+		 **/
 		T value;
 };
+
+#include "sensor.cpp"
 
 // vim:ts=4:sw=4:noet:
 #endif

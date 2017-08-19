@@ -1,7 +1,7 @@
 #ifndef world_h
 #define world_h
 #include "entity.h"
-#include "../misc/vect3d.h"
+#include "vect3d.h"
 
 /** The world (or environment...
  *
