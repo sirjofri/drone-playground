@@ -40,7 +40,11 @@ class Entity
 		 * @param location the location where the object should be placed
 		 * @param direction acceleration direction
 		 **/
-		void initialize(vect3d* location, vect3d* direction) { position = location; movement = direction; };
+		void initialize(vect3d* location, vect3d* direction)
+		{
+			position = location;
+			movement = direction;
+		};
 
 	private:
 		bool is_static = false;

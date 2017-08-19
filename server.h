@@ -30,7 +30,7 @@ void print_pos(Drone* d)
 void setup_world(World* w, Drone* d)
 {
 	w->spawn_entity(d, 5, 5, 5);
-	std::cout<<"Entity is spawned"<<std::endl;
+	std::cout<<"Entity is spawned"<<std::flush;
 }
 
 // vim:ts=4:sw=4:noet

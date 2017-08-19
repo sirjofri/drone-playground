@@ -4,7 +4,10 @@
 bool s_loop_running = false;
 
 /** the prompt of the command line interface */
-const std::string PROMPT = "\n-> ";
+const std::string PROMPT = "-> ";
+
+/** Help text */
+const std::string HELP_TEXT = "valid commands are:\n exit\thelp\trun";
 
 /** the server loop. this should be started in a new thread */
 void s_loop()
@@ -15,17 +18,12 @@ void s_loop()
 	setup_world(w, d);
 
 	clock_t start = clock(), round;
-	clock_t cps = CLOCKS_PER_SEC;
 	while(s_loop_running)
 	{
 		round = clock();
 		clock_t diff = round - start;
-		std::cout << diff << "\t";
 		w->tick(double(diff)/CLOCKS_PER_SEC);
-		print_pos(d);
-		std::cout << cps << "\t" << d->get_direction()->z << std::endl;
 		start = round;
-		cps = CLOCKS_PER_SEC;
 	}
 }
 
@@ -34,7 +32,7 @@ void s_loop()
 void c_loop()
 {
 	std::string command;
-	std::thread* mainloop;
+	std::thread* mainloop = nullptr;
 
 	do
 	{
@@ -42,19 +40,25 @@ void c_loop()
 		std::getline(std::cin, command);
 		switch(cmd(command))
 		{
-			case CMDS_RUN:
-				std::cout<<"RUN command";
-				s_loop_running = true;
-				mainloop = new std::thread(s_loop);
-				break;
 			case CMDS_EXIT:
 				s_loop_running = false;
+				break;
+			case CMDS_HELP:
+				std::cout<<HELP_TEXT<<std::flush;
+				break;
+			case CMDS_RUN:
+				s_loop_running = true;
+				mainloop = new std::thread(s_loop);
 				break;
 			case CMDS_EMPTY:
 				break;
 			case CMDS_INVALID:
 			default:
 				std::cout<<"Command not found";
+		}
+		if(cmd(command) != CMDS_EMPTY)
+		{
+			std::cout<<std::endl;
 		}
 	} while (command != CMD_EXIT);
 	if(mainloop != nullptr)
