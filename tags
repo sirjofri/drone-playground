@@ -28,10 +28,12 @@ CMDS_EXIT	misc/commands.h	/^	CMDS_EXIT,$/;"	e	enum:CMDS
 CMDS_HELP	misc/commands.h	/^	CMDS_HELP,$/;"	e	enum:CMDS
 CMDS_INVALID	misc/commands.h	/^	CMDS_INVALID$/;"	e	enum:CMDS
 CMDS_RUN	misc/commands.h	/^	CMDS_RUN,$/;"	e	enum:CMDS
+CMDS_SOCK	misc/commands.h	/^	CMDS_SOCK,$/;"	e	enum:CMDS
 CMD_EMPTY	misc/commands.h	/^const std::string CMD_EMPTY = "";$/;"	v
 CMD_EXIT	misc/commands.h	/^const std::string CMD_EXIT = "exit";$/;"	v
 CMD_HELP	misc/commands.h	/^const std::string CMD_HELP = "help";$/;"	v
 CMD_RUN	misc/commands.h	/^const std::string CMD_RUN = "run";$/;"	v
+CMD_SOCK	misc/commands.h	/^const std::string CMD_SOCK = "sock";$/;"	v
 CloseResultsWindow	doc/html/search/search.js	/^  this.CloseResultsWindow = function()$/;"	m	class:SearchBox
 CloseSelectionWindow	doc/html/search/search.js	/^  this.CloseSelectionWindow = function()$/;"	m	class:SearchBox
 DOMPopupSearchResults	doc/html/search/search.js	/^  this.DOMPopupSearchResults = function()$/;"	m	class:SearchBox
@@ -93,6 +95,7 @@ annotated_dup	doc/html/annotated_dup.js	/^var annotated_dup =$/;"	v
 arrowDown	doc/html/navtree.js	/^var arrowDown = '&#9660;';$/;"	v
 arrowRight	doc/html/navtree.js	/^var arrowRight = '&#9658;';$/;"	v
 attach_h	attach/attach.h	2;"	d
+buffer	server.cpp	/^char buffer[256]; \/\/ read\/write buffer$/;"	v
 c_loop	server.cpp	/^void c_loop()$/;"	f
 cachedLink	doc/html/navtree.js	/^function cachedLink()$/;"	f
 children	doc/html/menudata.js	/^var menudata={children:[$/;"	p	class:menudata
@@ -103,6 +106,8 @@ class_rudder	doc/html/class_rudder.js	/^var class_rudder =$/;"	v
 class_sensor	doc/html/class_sensor.js	/^var class_sensor =$/;"	v
 class_thrust	doc/html/class_thrust.js	/^var class_thrust =$/;"	v
 class_world	doc/html/class_world.js	/^var class_world =$/;"	v
+cli_addr	server.cpp	/^struct sockaddr_in serv_addr, cli_addr; \/\/ server and client address$/;"	v	typeref:struct:
+clilen	server.cpp	/^socklen_t clilen; \/\/ length of cli_addr$/;"	v
 cmd	misc/commands.h	/^int cmd(std::string command)$/;"	f
 collapseExpand	doc/html/resize.js	/^  function collapseExpand()$/;"	f	function:initResizable
 commands_h	misc/commands.h	2;"	d
@@ -110,6 +115,7 @@ convertToId	doc/html/search/search.js	/^function convertToId(search)$/;"	f
 createIndent	doc/html/navtree.js	/^function createIndent(o,domNode,node,level)$/;"	f
 createResults	doc/html/search/search.js	/^function createResults()$/;"	f
 current	attach/attach.h	/^		double current;$/;"	m	class:Attach
+d	server.cpp	/^Drone* d;$/;"	v
 deleteLink	doc/html/navtree.js	/^function deleteLink()$/;"	f
 details	doc/html/class_attach.html	/^<a name="details" id="details"><\/a><h2 class="groupheader">Detailed Description<\/h2>$/;"	a
 details	doc/html/class_drone.html	/^<a name="details" id="details"><\/a><h2 class="groupheader">Detailed Description<\/h2>$/;"	a
@@ -191,6 +197,7 @@ move	world/entity.h	/^		void move(const vect3d a, double time) \/\/ physical mov
 movement	world/entity.h	/^		vect3d* movement;$/;"	m	class:Entity
 navTo	doc/html/navtree.js	/^function navTo(o,root,hash,relpath)$/;"	f
 newNode	doc/html/navtree.js	/^function newNode(o, po, text, link, childrenData, lastNode)$/;"	f
+newsockfd	server.cpp	/^int sockfd, newsockfd, portno; \/\/ server socket, client socket, port number$/;"	v
 node.expandToggle.onclick	doc/html/navtree.js	/^    node.expandToggle.onclick = function() {$/;"	f
 node.getChildrenUL	doc/html/navtree.js	/^  node.getChildrenUL = function() {$/;"	f
 o.node.getChildrenUL	doc/html/navtree.js	/^  o.node.getChildrenUL = function() { return o.node.childrenUL; };$/;"	f
@@ -198,6 +205,7 @@ operator *	misc/vect3d.h	/^	vect3d operator*(const double &a)$/;"	f	struct:vect3
 operator +=	misc/vect3d.h	/^	vect3d operator+=(const vect3d &a)$/;"	f	struct:vect3d
 pathName	doc/html/navtree.js	/^function pathName()$/;"	f
 pitch	world/drone.h	/^		double pitch;$/;"	m	class:Drone
+portno	server.cpp	/^int sockfd, newsockfd, portno; \/\/ server socket, client socket, port number$/;"	v
 position	world/entity.h	/^		vect3d* position;$/;"	m	class:Entity
 print_pos	server.h	/^void print_pos(Drone* d)$/;"	f
 pro-attribs	doc/html/class_sensor.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"><\/a>$/;"	a
@@ -264,6 +272,7 @@ searchData	doc/html/search/variables_3.js	/^var searchData=$/;"	v
 searchData	doc/html/search/variables_4.js	/^var searchData=$/;"	v
 selectAndHighlight	doc/html/navtree.js	/^function selectAndHighlight(hash,n)$/;"	f
 sensor_h	sensors/sensor.h	2;"	d
+serv_addr	server.cpp	/^struct sockaddr_in serv_addr, cli_addr; \/\/ server and client address$/;"	v	typeref:struct:sockaddr_in
 server_h	server.h	2;"	d
 setClassAttr	doc/html/search/search.js	/^function setClassAttr(elem,attr)$/;"	f
 setKeyActions	doc/html/search/search.js	/^function setKeyActions(elem,action)$/;"	f
@@ -273,6 +282,10 @@ showNode	doc/html/navtree.js	/^function showNode(o, node, index, hash)$/;"	f
 showRoot	doc/html/navtree.js	/^function showRoot()$/;"	f
 showSyncOff	doc/html/navtree.js	/^function showSyncOff(n,relpath)$/;"	f
 showSyncOn	doc/html/navtree.js	/^function showSyncOn(n,relpath)$/;"	f
+sock_loop	server.cpp	/^void sock_loop()$/;"	f
+sock_read	server.cpp	/^int sock_read; \/\/ socket has read some stuff$/;"	v
+sock_running	server.cpp	/^bool sock_running = false; \/\/ socket is running$/;"	v
+sockfd	server.cpp	/^int sockfd, newsockfd, portno; \/\/ server socket, client socket, port number$/;"	v
 spawn_entity	world/world.cpp	/^int World::spawn_entity(Entity* e, int x, int y, int z)$/;"	f	class:World
 storeLink	doc/html/navtree.js	/^function storeLink(link)$/;"	f
 stripPath	doc/html/navtree.js	/^function stripPath(uri)$/;"	f
@@ -294,6 +307,7 @@ vect3d	misc/vect3d.h	/^	vect3d() : x(0), y(0), z(0)$/;"	f	struct:vect3d
 vect3d	misc/vect3d.h	/^	vect3d(double x_val, double y_val, double z_val)$/;"	f	struct:vect3d
 vect3d	misc/vect3d.h	/^struct vect3d$/;"	s
 vect3d_h	misc/vect3d.h	2;"	d
+w	server.cpp	/^World* w;$/;"	v
 world_h	world/world.h	2;"	d
 writeCookie	doc/html/resize.js	/^  function writeCookie(cookie, val, expiration)$/;"	f	function:initResizable
 x	misc/vect3d.h	/^	double x;$/;"	m	struct:vect3d

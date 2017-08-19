@@ -4,6 +4,10 @@
 #include <time.h>
 #include "world.h"
 #include "drone.h"
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <cstring>
+#include <unistd.h>
 #include <sys/socket.h>
 #include <thread>
 #include <string>
