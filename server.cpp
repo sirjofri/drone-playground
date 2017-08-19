@@ -47,8 +47,13 @@ void c_loop()
 				std::cout<<HELP_TEXT<<std::flush;
 				break;
 			case CMDS_RUN:
-				s_loop_running = true;
-				mainloop = new std::thread(s_loop);
+				if(mainloop == nullptr) // prevent loop from running twice!
+				{
+					s_loop_running = true;
+					mainloop = new std::thread(s_loop);
+				} else {
+					std::cout<<"Server loop is already running!";
+				}
 				break;
 			case CMDS_EMPTY:
 				break;
